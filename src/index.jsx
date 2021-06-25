@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import { App } from 'app'
+import { Startup } from 'startup'
 
 ReactDOM.render(<React.StrictMode>
-  <App />
+  <Startup />
 </React.StrictMode>, document.getElementById('root'))
