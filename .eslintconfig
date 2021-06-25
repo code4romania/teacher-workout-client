@@ -507,22 +507,6 @@
   "overrides": [
     {
       "files": [
-        "src/pages/404.jsx"
-      ],
-      "rules": {
-        "filenames/match-exported": "off"
-      }
-    },
-    {
-      "files": [
-        "gatsby-browser.js"
-      ],
-      "rules": {
-        "react/jsx-filename-extension": "off"
-      }
-    },
-    {
-      "files": [
         "test/integration/**/*.test.js",
         "test/unit/**/*.test.js"
       ],
