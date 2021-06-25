@@ -1,0 +1,6 @@
+{
+  "environment": "Default",
+  "backend": {
+    "url": "https://not-ready.sh"
+  }
+}
