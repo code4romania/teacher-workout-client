@@ -1,3 +1,4 @@
+import { of } from 'rxjs'
 import { ofType } from 'redux-observable'
 import { catchError, map, mergeMap } from 'rxjs/operators'
 
@@ -6,7 +7,7 @@ import * as repository from 'settings/repositories/fetch'
 
 const perform = () => repository.fetch()
   .pipe(map(actions.success))
-  .pipe(catchError(error => actions.failure(error)))
+  .pipe(catchError(error => of(actions.failure(error))))
 
 export const fetch = action$ => action$
   .pipe(ofType(actions.attempt.type))
