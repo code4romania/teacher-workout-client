@@ -1,3 +1,5 @@
 import { combineReducers } from '@reduxjs/toolkit'
 
-export const reducers = combineReducers({ placeholder: (_state, _action) => true })
+import { settings } from 'settings/slices/settings'
+
+export const reducers = combineReducers({ settings: settings.reducer })
