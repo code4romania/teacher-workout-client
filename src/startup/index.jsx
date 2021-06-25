@@ -6,6 +6,6 @@ import * as store from 'startup/store'
 
 export const Startup = () => <Provider store={store.make()}>
   <Settings>
-    Making progress...
+    Making even more progress...
   </Settings>
 </Provider>
