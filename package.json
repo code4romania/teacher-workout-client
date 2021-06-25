@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "start": "react-scripts start",
+    "lint": "eslint . --ext=js,jsx --config .eslintconfig;",
+    "lint:fix": "eslint . --ext=js,jsx --fix --config .eslintconfig;",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
