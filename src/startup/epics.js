@@ -1,3 +1,5 @@
 import { combineEpics } from 'redux-observable'
 
-export const epics = combineEpics()
+import { fetch } from 'settings/epics/fetch'
+
+export const epics = combineEpics(fetch)
