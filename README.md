@@ -8,12 +8,6 @@ Teacher Workout [was prototyped](https://civiclabs.ro/ro/solutions/teacher-worko
 
 Teacher Workout is an application meant to deliver shot, interactive lessons. The themes of these lessons include identifying children who manifest a difficulty in learning, handling difficult classrooms situations, integrating children with particular needs in a classroom. These micro-courses are meant to help foster positive habits for teachers and professors alike. 
 
-The Teacher Workout ecosystem is composed of:
-
-* [the backend](https://github.com/code4romania/teacher-workout-backend)
-* [the web app](https://github.com/code4romania/teacher-workout-client)
-* the two mobile apps, [one for Android](https://github.com/code4romania/teacher-workout-android) and [another one for iOS](https://github.com/code4romania/teacher-workout-ios)
-
 The Teacher Workout prototype and UI is available [in the Figma project](https://www.figma.com/file/uLiqrlxmOB5xCppIzmiUXV/Teacher-Workout?node-id=0%3A1). 
 
 [Contributing](#contributing) | [Built with](#built-with) | [Repos and projects](#repos-and-projects) | [Deployment](#deployment) | [Feedback](#feedback) | [License](#license) | [About Code4Ro](#about-code-for-romania)
@@ -30,9 +24,15 @@ If you would like to suggest new functionality, open an Issue and mark it as a _
 
 ### Programming languages
 
+JavaScript
+
 ### Platforms
 
+Web
+
 ### Frontend framework
+
+React
 
 ### Package managers
 
@@ -40,7 +40,11 @@ If you would like to suggest new functionality, open an Issue and mark it as a _
 
 ## Repos and projects
 
-Mention all related repos and projects.
+The Teacher Workout ecosystem is composed of:
+
+* [the backend](https://github.com/code4romania/teacher-workout-backend)
+* [the web app](https://github.com/code4romania/teacher-workout-client)
+* the two mobile apps, [one for Android](https://github.com/code4romania/teacher-workout-android) and [another one for iOS](https://github.com/code4romania/teacher-workout-ios)
 
 ## Deployment
 
