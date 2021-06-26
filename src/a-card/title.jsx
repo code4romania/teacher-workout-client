@@ -11,6 +11,10 @@ const useStyles = makeStyles(theme => ({
     color: '#1F2937',
   },
 }))
-export const Title = () => <Typography className={useStyles().title} color={'textSecondary'} gutterBottom>
-  Vrei să contribui la acest app. Vino alături de noi  în echipă
-</Typography>
+export const Title = () => (
+  <Typography className={useStyles().title}
+              color={'textSecondary'}
+              gutterBottom>
+    Vrei să contribui la acest app. Vino alături de noi în echipă
+  </Typography>
+)

@@ -13,10 +13,12 @@ const useStyles = makeStyles(theme => ({
     marginTop: theme.spacing(3),
   },
 }))
-export const CallButton = () => <Button variant={'contained'}
-                                        color={'primary'}
-                                        size={'small'}
-                                        className={useStyles().button}
-                                        endIcon={<ArrowForwardIcon />}>
-  Call to action ptr creatori
-</Button>
+export const CallButton = () => (
+  <Button variant={'contained'}
+          color={'primary'}
+          size={'small'}
+          className={useStyles().button}
+          endIcon={<ArrowForwardIcon />}>
+    Call to action ptr creatori
+  </Button>
+)
