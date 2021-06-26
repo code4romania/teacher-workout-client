@@ -1,3 +1,7 @@
 import { combineEpics } from 'redux-observable'
 
-export const epics = combineEpics()
+import { course } from 'src/course/epics'
+
+export const epics = combineEpics(
+    course
+)
