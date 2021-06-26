@@ -1,11 +1,11 @@
 import React from 'react'
-import { List, ListItem } from '@material-ui/core'
+import { Grid } from '@material-ui/core'
 
-import { Card } from 'course/content/card'
+import { Title } from 'course/content/title'
+import { List } from 'course/content/list'
 import { useCourses } from 'course/hooks/use-courses'
 
-export const Content = () => <List>
-  {useCourses().map(course => <ListItem key={course.title}>
-    <Card course={course} />
-  </ListItem>)}
-</List>
+export const Content = () => <Grid container justify={'center'} alignContent={'center'}>
+  <Title />
+  <List courses={useCourses()} />
+</Grid>
