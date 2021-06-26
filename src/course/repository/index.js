@@ -1,5 +1,3 @@
-import {get} from 'src/course/repository/get'
+import { get } from 'course/repository/get'
 
-export const repository = {
-    get
-}
+export const repository = { get }
