@@ -1,7 +1,7 @@
-import {map} from 'rxjs/operators'
+import { map } from 'rxjs/operators'
 
-import {query} from 'network/graph/query'
-import {themes} from 'theme/repository/queries/themes'
+import { graph } from 'network'
+import { themes } from 'theme/repository/queries/themes'
 
-export const get = () => query({query: themes})
-    .pipe(map(({data: {themes}}) => themes))
+export const get = () => graph().query({ query: themes })
+  .pipe(map(({ data: { themes } }) => themes))
