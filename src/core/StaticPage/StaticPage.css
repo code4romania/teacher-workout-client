@@ -1,0 +1,28 @@
+h1 {
+    margin-bottom: 71px;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+p + ul {
+    margin-bottom: 20px;
+}
+
+ul + p {
+    margin-top: 26px;
+}
+
+li{
+    margin-bottom: 18px;
+}
+
+a:link, a:hover, a:visited, a:active{
+    color:#ec203a;
+    text-decoration: none;
+}
