@@ -2,6 +2,6 @@
   "environment": "Default",
   "backend": {
     "restUrl": "https://not-ready.sh/v1",
-    "graphUrl": "https://not-ready.sh/v1/graph"
+    "graphUrl": "https://teacher.heroesof.tech/graphql"
   }
 }
