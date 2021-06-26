@@ -1,14 +1,12 @@
 import React from 'react'
-import { Description } from './Description'
-import { DownloadButtons } from './DownloadButtons'
-import { Title } from './Title'
+import { Description } from 'core/hero/description'
+import { DownloadButtons } from 'core/hero/download-buttons'
+import { Title } from 'core/hero/title'
 
-export const Hero = () => {
-  return (
-    <div>
-      <Title />
-      <Description />
-      <DownloadButtons />  
-    </div>
-  )
-}
+export const Hero = () => (
+  <div>
+    <Title />
+    <Description />
+    <DownloadButtons />
+  </div>
+)

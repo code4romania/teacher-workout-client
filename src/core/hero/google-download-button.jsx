@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Grid } from '@material-ui/core'
-import GoogleStoreDownload from 'core/hero/GooglePlay.png'
+import GoogleStoreDownload from 'core/hero/google-store.png'
 
 export const GoogleDownloadButton = () => (
   <Grid item>

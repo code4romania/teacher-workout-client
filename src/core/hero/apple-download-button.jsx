@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Grid } from '@material-ui/core'
-import AppleButton from 'core/hero/ApplePlay.png'
+import AppleButton from 'core/hero/apple-store.png'
 
 export const AppleDownloadButton = () => (
   <Grid item>
