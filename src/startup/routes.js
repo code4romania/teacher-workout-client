@@ -1,6 +1,8 @@
+import { Home } from 'home'
+
 export const routes = [
-    {
-        path: '/',
-        Component: "Making even more progress"
-    }
+  {
+    path: '/',
+    Component: Home,
+  },
 ]
