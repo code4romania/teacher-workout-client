@@ -1,11 +1,14 @@
 import React from 'react'
 import { Provider } from 'react-redux'
 
+import { Network } from 'network'
 import { Settings } from 'settings'
 import * as store from 'startup/store'
 
-export const Startup = () => <Provider store={store.make()}>
-  <Settings>
-    Making even more progress...
-  </Settings>
-</Provider>
+export const Startup = () => <Settings>
+  <Network>
+    <Provider store={store.make()}>
+      Making even more progress...
+    </Provider>
+  </Network>
+</Settings>

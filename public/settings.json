@@ -1,6 +1,7 @@
 {
   "environment": "Default",
   "backend": {
-    "url": "https://not-ready.sh"
+    "restUrl": "https://not-ready.sh/v1",
+    "graphUrl": "https://not-ready.sh/v1/graph"
   }
 }

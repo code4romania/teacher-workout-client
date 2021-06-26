@@ -1,12 +1,20 @@
-import { useEffect } from 'react'
-import { useDispatch } from 'react-redux'
+import { useEffect, useState } from 'react'
+import { tap } from 'rxjs/operators'
 
-import { actions } from 'settings/slices/settings'
+import { setup } from 'settings/fetching'
+
+const setupSettings = onFinish => setup()
+  .pipe(tap(settings => onFinish(settings)))
+  .subscribe()
 
 export const useFetching = () => {
-  const dispatch = useDispatch()
+  const [settings, setSettings] = useState(undefined)
 
   useEffect(() => {
-    dispatch(actions.attempt())
-  }, [dispatch])
+    const subscription = setupSettings(setSettings)
+
+    return subscription.unsubscribe
+  }, [setSettings])
+
+  return settings
 }

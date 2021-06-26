@@ -1,9 +1,9 @@
 import { useFetching } from 'settings/hooks/use-fetching'
-import { useSettings } from 'settings/hooks/use-settings'
 
 export const Settings = ({ children }) => {
-  useFetching()
+  const wereFetched = useFetching()
 
-  return useSettings() ? children : 'Fetching settings...'
+  return wereFetched ? children : 'Fetching settings...'
 }
 
+export { settings } from 'settings/fetching'
