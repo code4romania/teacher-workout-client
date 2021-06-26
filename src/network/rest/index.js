@@ -1,9 +1,12 @@
+import { get } from 'network/rest/get'
+import { post } from 'network/rest/post'
+
 let instance
 
 export const setup = () => {
   instance = ({
-    get: () => undefined,
-    post: () => undefined,
+    get: get(),
+    post: post(),
   })
 
   return instance
