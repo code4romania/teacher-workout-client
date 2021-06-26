@@ -1,3 +1,7 @@
-import { combineReducers } from '@reduxjs/toolkit'
+import {combineReducers} from '@reduxjs/toolkit'
 
-export const reducers = combineReducers({ placeholder: (_state, _action) => true })
+import {course} from '../course/slices'
+
+export const reducers = combineReducers({
+    course
+})
