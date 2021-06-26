@@ -1,5 +1,7 @@
 import { createMuiTheme } from '@material-ui/core'
 
+const fontFamily = ['IBM Plex Sans', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'].join(',')
+
 export const make = () => createMuiTheme({
   palette: {
     primary: {
@@ -8,4 +10,5 @@ export const make = () => createMuiTheme({
       dark: '#00515e',
     },
   },
+  typography: { fontFamily },
 })
