@@ -1,3 +1,8 @@
 import React from 'react'
 
-export const Home = () => <h1>Home</h1>
+import { Header } from 'header'
+
+export const Home = () => <>
+  <Header />
+  <h1>Home</h1>
+</>
