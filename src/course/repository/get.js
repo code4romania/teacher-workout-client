@@ -1,11 +1,7 @@
-import { of } from 'rxjs'
 import { map } from 'rxjs/operators'
 
-const list = [
-  { title: 'first' },
-  { title: 'second' },
-  { title: 'third' },
-]
+import {graph} from 'network'
+import {lessons} from 'course/repository/queries/lessons'
 
-export const get = () => of({})
-  .pipe(map(() => list))
+export const get = () => graph().query(lessons)
+    .pipe(map(({data: {lessons}}) => lessons))
