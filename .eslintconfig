@@ -322,7 +322,7 @@
       {
         "skipBlankLines": true,
         "skipComments": false,
-        "max": 8
+        "max": 15
       }
     ],
     "max-lines": [
