@@ -10,6 +10,7 @@ const useStyles = makeStyles({
   root: {
     height: 80,
     borderBottom: '1px solid #E5E7EB',
+    background: 'white',
   },
 })
 
