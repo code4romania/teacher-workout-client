@@ -8,6 +8,7 @@ export const About = () => <>
   <StaticPage title={'About'} articles={articles} />
 </>
 
+/* eslint max-len: 0 */
 const articles = [
   {
     title: '',

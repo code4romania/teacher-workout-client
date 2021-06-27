@@ -8,6 +8,7 @@ export const CookiePolicy = () => <>
   <StaticPage title={'Cookie Policy'} articles={articles} />
 </>
 
+/* eslint max-len: 0 */
 const articles = [
   {
     title: '',

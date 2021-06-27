@@ -8,6 +8,7 @@ export const TermsAndConditions = () => <>
   <StaticPage title={'Termeni și condiții'} articles={articles} />
 </>
 
+/* eslint max-len: 0 */
 const articles = [
   {
     title: '',
