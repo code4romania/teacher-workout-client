@@ -1,27 +1,18 @@
 import React from 'react'
-import { Box, Grid, Typography } from '@material-ui/core'
+import { Box, Grid } from '@material-ui/core'
 
 import { OrganizerLogo } from 'core/footer/organizer-logo'
-import { DownloadApp } from 'core/footer/download-app'
-import { DesktopButtons } from 'core/footer/desktop-buttons'
+import { NavButtons } from 'core/footer/nav-buttons'
+import { DownloadApp } from 'core/footer/download-app/index'
+import { Copyright } from 'core/footer/copyright'
 
 export const Footer = () => (
-  <Box>
-    <Box mb={4}>
-    <Grid container alignItems={"center"} justify={"space-between"}>
-        <OrganizerLogo />
-        <DownloadApp />
+  <Box flexWrap={'wrap'}>
+    <Grid container alignItems={'center'} justify={'space-between'}>
+      <OrganizerLogo />
+      <NavButtons />
+      <Copyright />
+      <DownloadApp />
     </Grid>
-    </Box>
-    <Box mb={4}>
-      <Grid container alignItems={"center"} justify={"space-between"}>
-          <Grid item>
-            <Typography>© 2021 Code for Romania. Toate drepturile rezervate.</Typography>
-          </Grid>
-          <Grid item>
-            <DesktopButtons />
-          </Grid>
-      </Grid>
-    </Box>
   </Box>
 )
