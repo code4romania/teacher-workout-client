@@ -10,6 +10,7 @@ const useStyles = makeStyles({
   root: {
     height: 80,
     borderBottom: '1px solid #E5E7EB',
+    background: 'white',
   },
 })
 
@@ -19,9 +20,11 @@ const properties = {
   alignItems: 'center',
 }
 
-export const Bar = () => <Box {...properties} className={useStyles().root}>
-  <Icon />
-  <Space />
-  <MobileButtons />
-  <DesktopButtons />
-</Box>
+export const Bar = () => (
+  <Box {...properties} className={useStyles().root}>
+    <Icon />
+    <Space />
+    <MobileButtons />
+    <DesktopButtons />
+  </Box>
+)
