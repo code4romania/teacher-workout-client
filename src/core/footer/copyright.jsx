@@ -10,5 +10,5 @@ const useStyles = makeStyles(theme => ({
 }))
 
 export const Copyright = () => <Grid item className={useStyles().copyright}>
-  <Typography>© 2021 Code for Romania. Toate drepturile rezervate.</Typography>
+  <Typography color={'textSecondary'}>© 2021 Code for Romania. Toate drepturile rezervate.</Typography>
 </Grid>
