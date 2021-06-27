@@ -7,7 +7,7 @@ const useStyles = makeStyles(theme => ({
     [theme.breakpoints.only('xs')]: { width: 200 },
     [theme.breakpoints.only('sm')]: { width: 200 },
     [theme.breakpoints.only('md')]: { width: 400 },
-    [theme.breakpoints.only('lg')]: { width: 1700 },
+    [theme.breakpoints.only('lg')]: { width: 1300 },
     [theme.breakpoints.only('xl')]: { width: 1900 },
   },
 }))

@@ -1,3 +1,6 @@
 import { combineReducers } from '@reduxjs/toolkit'
 
-export const reducers = combineReducers({ placeholder: (_state, _action) => true })
+import { header } from 'header/slices'
+import { course } from 'course/slices'
+
+export const reducers = combineReducers({ header, course })
