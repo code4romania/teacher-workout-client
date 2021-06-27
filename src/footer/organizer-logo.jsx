@@ -1,6 +1,6 @@
 import React from 'react'
 import { makeStyles, Grid, Box, Typography } from '@material-ui/core'
-import Logo from 'core/footer/code4romania-full.svg'
+import Logo from 'footer/code4romania-full.svg'
 
 const useStyles = makeStyles(theme => ({
   organizerLogo: {

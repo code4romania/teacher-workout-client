@@ -1,10 +1,10 @@
 import React from 'react'
 import { Box, Grid } from '@material-ui/core'
 
-import { OrganizerLogo } from 'core/footer/organizer-logo'
-import { NavButtons } from 'core/footer/nav-buttons'
-import { DownloadApp } from 'core/footer/download-app/index'
-import { Copyright } from 'core/footer/copyright'
+import { OrganizerLogo } from 'footer/organizer-logo'
+import { NavButtons } from 'footer/nav-buttons'
+import { DownloadApp } from 'footer/download-app/index'
+import { Copyright } from 'footer/copyright'
 
 export const Footer = () => (
   <Box flexWrap={'wrap'}>

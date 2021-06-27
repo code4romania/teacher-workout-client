@@ -1,10 +1,10 @@
 import React from 'react'
 import { makeStyles, Box, Grid } from '@material-ui/core'
 
-import { About } from 'core/footer/nav-buttons/about'
-import { Donate } from 'core/footer/nav-buttons/donate'
-import { PrivacyPolicy } from 'core/footer/nav-buttons/privacy-policy'
-import { Terms } from 'core/footer/nav-buttons/terms'
+import { About } from 'footer/nav-buttons/about'
+import { Donate } from 'footer/nav-buttons/donate'
+import { PrivacyPolicy } from 'footer/nav-buttons/privacy-policy'
+import { Terms } from 'footer/nav-buttons/terms'
 
 const useStyles = makeStyles(theme => ({
   navButtons: {

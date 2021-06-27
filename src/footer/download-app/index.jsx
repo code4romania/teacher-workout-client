@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Grid, Typography, makeStyles } from '@material-ui/core'
-import { DownloadButtons } from 'core/footer/download-app/download-buttons'
+import { DownloadButtons } from 'footer/download-app/download-buttons'
 
 const useStyles = makeStyles(theme => ({
   downloadApp: {
