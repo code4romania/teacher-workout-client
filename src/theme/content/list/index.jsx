@@ -1,7 +1,7 @@
-import {Box, Grid, List as MaterialList, makeStyles} from '@material-ui/core'
+import {Grid, makeStyles, GridList} from '@material-ui/core'
 import PropTypes from 'prop-types'
 
-import { Card } from 'theme/content/card'
+import {Card} from 'theme/content/card'
 
 const useListStyle = makeStyles(() => ({
     root: {
@@ -10,14 +10,12 @@ const useListStyle = makeStyles(() => ({
     }
 }))
 
-export const List = ({ themes }) => {
+export const List = ({themes}) => {
     const {root} = useListStyle()
 
-    return <Grid item xl={12} lg={12} md={12} sm={12} xs={12}>
-        <MaterialList className={root}>
-            {themes.map(theme => <Card key={theme.title} theme={theme}/>)}
-        </MaterialList>
-    </Grid>
+    return <GridList className={root} cols={3} spacing={20} cellHeight={'auto'}>
+        {themes.map(theme => <Card key={theme.title} theme={theme}/>)}
+    </GridList>
 }
 
-List.propTypes = { themes: PropTypes.array.isRequired }
+List.propTypes = {themes: PropTypes.array.isRequired}

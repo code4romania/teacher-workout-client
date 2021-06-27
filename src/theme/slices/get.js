@@ -6,7 +6,7 @@ const initialState = {
   errors: '',
 }
 
-const attempt = (state, { payload }) => ({ ...state, input: payload })
+const attempt = (state, { payload }) => ({...state, input: payload})
 
 const success = (state, { payload }) => ({ ...state, data: payload })
 
