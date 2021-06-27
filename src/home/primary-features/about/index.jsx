@@ -16,7 +16,9 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-export const About = () => <Box className={useStyles().root}>
-  <Title />
-  <Description />
-</Box>
+export const About = () => (
+  <Box className={useStyles().root}>
+    <Title />
+    <Description />
+  </Box>
+)

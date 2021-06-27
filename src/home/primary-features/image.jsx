@@ -16,8 +16,10 @@ const useStyles = makeStyles(theme => ({
   image: { [theme.breakpoints.only('xs')]: { width: 200 } },
 }))
 
-export const Image = () => <Grid item xs={12} sm={12} md={12} lg={4} xl={4}>
-  <Box pt={5} className={useStyles().root}>
-    <img src={Source} alt={'device'} className={useStyles().image} />
-  </Box>
-</Grid>
+export const Image = () => (
+  <Grid item xs={12} sm={12} md={12} lg={4} xl={4}>
+    <Box pt={5} className={useStyles().root}>
+      <img src={Source} alt={'device'} className={useStyles().image} />
+    </Box>
+  </Grid>
+)

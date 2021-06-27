@@ -11,11 +11,13 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-export const Description = () => <Box className={useStyles().root}>
-  <Typography variant={'body1'} color={'textSecondary'}>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    Pariatur minima sequi recusandae, porro maiores officia assumenda aliquam
-    laborum ab aliquid veritatis impedit odit adipisci optio iste blanditiis
-    facere. Totam, velit.
-  </Typography>
-</Box>
+export const Description = () => (
+  <Box className={useStyles().root}>
+    <Typography variant={'body1'} color={'textSecondary'}>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima
+      sequi recusandae, porro maiores officia assumenda aliquam laborum ab
+      aliquid veritatis impedit odit adipisci optio iste blanditiis facere.
+      Totam, velit.
+    </Typography>
+  </Box>
+)

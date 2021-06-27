@@ -13,10 +13,10 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-export const Paper = ({ children }) => <MaterialPaper>
-  <Box className={useStyles().box}>
-    {children}
-  </Box>
-</MaterialPaper>
+export const Paper = ({ children }) => (
+  <MaterialPaper>
+    <Box className={useStyles().box}>{children}</Box>
+  </MaterialPaper>
+)
 
 Paper.propTypes = { children: PropTypes.node.isRequired }

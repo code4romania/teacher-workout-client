@@ -27,6 +27,10 @@ const options = [
   },
 ]
 
-export const Options = () => <Grid item container>
-  {options.map(option => <Option {...option} key={option.title} />)}
-</Grid>
+export const Options = () => (
+  <Grid item container>
+    {options.map(option => (
+      <Option {...option} key={option.title} />
+    ))}
+  </Grid>
+)

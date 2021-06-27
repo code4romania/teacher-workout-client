@@ -20,9 +20,11 @@ const properties = {
   alignItems: 'center',
 }
 
-export const Bar = () => <Box {...properties} className={useStyles().root}>
-  <Icon />
-  <Space />
-  <MobileButtons />
-  <DesktopButtons />
-</Box>
+export const Bar = () => (
+  <Box {...properties} className={useStyles().root}>
+    <Icon />
+    <Space />
+    <MobileButtons />
+    <DesktopButtons />
+  </Box>
+)
