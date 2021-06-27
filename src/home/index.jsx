@@ -1,10 +1,14 @@
 import React from 'react'
+import { Box, makeStyles } from '@material-ui/core'
 
 import { Header } from 'header'
 import { Hero } from 'core/hero/hero'
+import { PrimaryFeatures } from 'home/primary-features'
 
-export const Home = () => <>
+const useStyles = makeStyles({ root: { background: '#E5E5E5' } })
+
+export const Home = () => <Box className={useStyles().root}>
   <Header />
-  <h1>Home</h1>
   <Hero />
-</>
+  <PrimaryFeatures />
+</Box>
