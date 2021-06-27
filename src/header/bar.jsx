@@ -1,24 +1,24 @@
-import React from "react";
-import { Box, makeStyles } from "@material-ui/core";
+import React from 'react'
+import { Box, makeStyles } from '@material-ui/core'
 
-import { Icon } from "header/icon";
-import { Space } from "header/space";
-import { MobileButtons } from "header/mobile-buttons";
-import { DesktopButtons } from "header/desktop-buttons";
+import { Icon } from 'header/icon'
+import { Space } from 'header/space'
+import { MobileButtons } from 'header/mobile-buttons'
+import { DesktopButtons } from 'header/desktop-buttons'
 
 const useStyles = makeStyles({
   root: {
     height: 80,
-    borderBottom: "1px solid #E5E7EB",
-    background: "white",
+    borderBottom: '1px solid #E5E7EB',
+    background: 'white',
   },
-});
+})
 
 const properties = {
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-};
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+}
 
 export const Bar = () => (
   <Box {...properties} className={useStyles().root}>
@@ -27,4 +27,4 @@ export const Bar = () => (
     <MobileButtons />
     <DesktopButtons />
   </Box>
-);
+)
