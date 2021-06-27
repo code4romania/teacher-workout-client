@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Grid } from '@material-ui/core'
 
-import Source from 'core/hero/download-buttons/google-store.png'
+import Source from 'home/hero/download-buttons/google-store.png'
 
 export const Google = () => (
   <Grid item>

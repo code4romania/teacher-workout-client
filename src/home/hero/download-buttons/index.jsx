@@ -1,8 +1,8 @@
 import React from 'react'
 import { Grid } from '@material-ui/core'
 
-import { Apple } from 'core/hero/download-buttons/apple'
-import { Google } from 'core/hero/download-buttons/google'
+import { Apple } from 'home/hero/download-buttons/apple'
+import { Google } from 'home/hero/download-buttons/google'
 
 export const DownloadButtons = () => (
   <div>
