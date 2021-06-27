@@ -4,7 +4,8 @@ import { Grid, makeStyles, Typography } from '@material-ui/core'
 const useStyles = makeStyles(theme => ({
   copyright: {
     order: 3,
-    [theme.breakpoints.down('sm')]: { order: 4 },
+    flexBasis: '50%',
+    [theme.breakpoints.down('sm')]: { order: 4, flexBasis: '100%' },
   },
 }))
 

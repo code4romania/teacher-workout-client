@@ -5,7 +5,7 @@ import Logo from 'core/footer/code4romania-full.svg'
 const useStyles = makeStyles(theme => ({
   organizerLogo: {
     order: 1,
-    [theme.breakpoints.down('sm')]: { order: 3 },
+    [theme.breakpoints.down('sm')]: { order: 3, flexBasis: '100%' },
   },
 }))
 

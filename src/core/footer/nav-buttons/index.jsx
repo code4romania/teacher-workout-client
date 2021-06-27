@@ -9,7 +9,8 @@ import { Terms } from 'core/footer/nav-buttons/terms'
 const useStyles = makeStyles(theme => ({
   navButtons: {
     order: 2,
-    [theme.breakpoints.down('sm')]: { order: 2 },
+    flexBasis: '50%',
+    [theme.breakpoints.down('sm')]: { order: 2, flexBasis: '100%' },
   },
 }))
 

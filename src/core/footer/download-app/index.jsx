@@ -5,14 +5,19 @@ import { DownloadButtons } from 'core/footer/download-app/download-buttons'
 const useStyles = makeStyles(theme => ({
   downloadApp: {
     order: 4,
-    [theme.breakpoints.down('sm')]: { order: 1 },
+    flexBasis: '50%',
+    [theme.breakpoints.down('sm')]: { order: 1, flexBasis: '100%' },
+  },
+  text: {
+    textAlign: 'right',
+    [theme.breakpoints.down('sm')]: { textAlign: 'left' },
   },
 }))
 
 export const DownloadApp = () => <Grid item className={useStyles().downloadApp}>
   <Box>
     <Box px={1.25}>
-      <Typography align={'right'}>Descarcă aplicația</Typography>
+      <Typography className={useStyles().text} align={'right'}>Descarcă aplicația</Typography>
     </Box>
     <DownloadButtons />
   </Box>
