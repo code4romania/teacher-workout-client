@@ -7,11 +7,10 @@ const CONTENT = `Lorem ipsum dolor sit amet consectetur adipisicing elit.
 
 export const Desktop = () => <Hidden smDown>
   <Box display={'flex'} justifyContent={'center'}>
-    <Box alignContent={'center'} width={'33%'} justifyContent={'center'}>
+    <Box alignContent={'center'} width={0.4} justifyContent={'center'} pb={2}>
       <Typography align={'center'}>
         {CONTENT}
       </Typography>
-      <Box height={'7px'} />
     </Box>
   </Box>
 </Hidden>

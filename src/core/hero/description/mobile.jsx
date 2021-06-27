@@ -7,11 +7,10 @@ to action-ul pentru downloading-ul aplicatiei. pwp.`
 
 export const Mobile = () => <Hidden mdUp>
   <Box display={'flex'} justifyContent={'center'}>
-    <Box alignContent={'center'} width={'33%'} justifyContent={'center'}>
+    <Box alignContent={'center'} width={4 / 5} justifyContent={'center'} pb={2}>
       <Typography align={'center'}>
         {CONTENT}
       </Typography>
-      <Box height={'7px'} />
     </Box>
   </Box>
 </Hidden>
