@@ -5,6 +5,7 @@ import { Box, makeStyles } from '@material-ui/core'
 import { Header } from 'header'
 import { Hero } from 'home/hero'
 import { PrimaryFeatures } from 'home/primary-features'
+import { Footer } from 'footer'
 
 const useStyles = makeStyles({ root: { background: '#E5E5E5' } })
 
@@ -14,5 +15,6 @@ export const Home = () => (
     <Hero />
     <PrimaryFeatures />
     <Cards />
+    <Footer />
   </Box>
 )
