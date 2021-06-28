@@ -19,6 +19,8 @@ export const DownloadApp = () => <Grid item className={useStyles().downloadApp}>
     <Box px={1.25}>
       <Typography className={useStyles().text} align={'right'}>Descarcă aplicația</Typography>
     </Box>
-    <DownloadButtons />
+    <Grid container justify={'flex-end'}>
+      <DownloadButtons />
+    </Grid>
   </Box>
 </Grid>
