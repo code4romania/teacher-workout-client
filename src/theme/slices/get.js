@@ -6,7 +6,7 @@ const initialState = {
   errors: '',
 }
 
-const attempt = (state, { payload }) => ({ ...state, input: payload })
+const attempt = (state, { payload }) => ({...state, input: payload})
 
 const success = (state, { payload }) => ({ ...state, data: payload })
 
@@ -14,7 +14,7 @@ const failure = (state, { payload }) => ({ ...state, errors: payload })
 
 export const get = createSlice({
   initialState,
-  name: 'getSlice',
+  name: 'get',
   reducers: {
     attempt,
     success,
