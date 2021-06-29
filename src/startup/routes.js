@@ -1,5 +1,5 @@
 import { Home } from 'home'
-import { TermsAndConditions } from 'termsAndConditions'
+import { Terms } from 'terms'
 import { Privacy } from 'privacy'
 
 export const routes = [
@@ -9,7 +9,7 @@ export const routes = [
   },
   {
     path: '/terms-and-conditions',
-    Component: TermsAndConditions,
+    Component: Terms,
   },
   {
     path: '/privacy-policy',

@@ -3,7 +3,7 @@ import React from 'react'
 import { Header } from 'header'
 import { StaticPage } from 'core/staticpage/staticpage'
 
-export const TermsAndConditions = () => <>
+export const Terms = () => <>
   <Header />
   <StaticPage title={'Termeni și condiții'} articles={articles} />
 </>
