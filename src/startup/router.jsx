@@ -5,7 +5,7 @@ import { routes } from 'startup/routes'
 
 export const Router = () => <BrowserRouter>
   <Switch>
-    {routes.map(({ path, Component }) => <Route key={path} path={path}>
+    {routes.map(({ path, Component }) => <Route key={path} path={path} exact>
       <Component />
     </Route>)}
   </Switch>
