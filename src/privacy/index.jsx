@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Header } from 'header'
-import { StaticPage } from 'core/staticpage/staticpage'
+import { StaticPage } from 'core/static-page'
 
 export const Privacy = () => <>
   <Header />

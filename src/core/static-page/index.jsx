@@ -1,8 +1,9 @@
-import Container from '@material-ui/core/Container'
-import parse from 'html-react-parser'
 import React from 'react'
-import 'core/staticpage/staticpage.css'
 import PropTypes from 'prop-types'
+import parse from 'html-react-parser'
+import Container from '@material-ui/core/Container'
+
+import 'core/static-page/index.css'
 
 export const StaticPage = props => (
   <div>
