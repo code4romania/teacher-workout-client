@@ -1,12 +1,11 @@
 import React from 'react'
 
-import { Header } from 'header'
+import { Layout } from 'layout'
 import { StaticPage } from 'core/static-page'
 
-export const About = () => <>
-  <Header />
+export const About = () => <Layout>
   <StaticPage title={'About'} articles={articles} />
-</>
+</Layout>
 
 /* eslint max-len: 0 */
 const articles = [
