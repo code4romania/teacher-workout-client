@@ -5,7 +5,7 @@ import { Box, makeStyles } from '@material-ui/core'
 import { Header } from 'layout/header'
 import { Footer } from 'layout/footer'
 
-const useStyles = makeStyles({ root: { background: '#E5E5E5' } })
+const useStyles = makeStyles(theme => ({ root: { background: theme.palette.background.main } }))
 
 export const Layout = ({ children }) => <Box className={useStyles().root}>
   <Header />
