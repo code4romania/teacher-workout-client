@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Grid, Typography, makeStyles } from '@material-ui/core'
-import { DownloadButtons } from 'footer/download-app/download-buttons'
+import { DownloadButtons } from 'core/download-buttons'
 
 const useStyles = makeStyles(theme => ({
   downloadApp: {
@@ -19,6 +19,8 @@ export const DownloadApp = () => <Grid item className={useStyles().downloadApp}>
     <Box px={1.25}>
       <Typography className={useStyles().text} align={'right'}>Descarcă aplicația</Typography>
     </Box>
-    <DownloadButtons />
+    <Grid container justify={'flex-end'}>
+      <DownloadButtons />
+    </Grid>
   </Box>
 </Grid>
