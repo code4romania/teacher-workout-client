@@ -7,7 +7,7 @@ import { Space } from 'home/features/secondary/space'
 import { Layout } from 'home/features/secondary/layout'
 import { Options } from 'home/features/secondary/options'
 
-export const SecondaryFeatures = () => <Layout>
+export const Secondary = () => <Layout>
   <Image />
   <Space />
 

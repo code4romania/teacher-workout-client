@@ -6,7 +6,7 @@ import { About } from 'home/features/primary/about'
 import { Layout } from 'home/features/primary/layout'
 import { Options } from 'home/features/primary/options'
 
-export const PrimaryFeatures = () => (
+export const Primary = () => (
   <Layout>
     <Grid item container>
       <Grid item xs={12} sm={12} md={12} lg={8} xl={8}>

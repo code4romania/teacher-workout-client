@@ -1,9 +1,9 @@
 import React from 'react'
 
-import { PrimaryFeatures } from 'home/features/primary'
-import { SecondaryFeatures } from 'home/features/secondary'
+import { Primary } from 'home/features/primary'
+import { Secondary } from 'home/features/secondary'
 
 export const Features = () => <>
-  <PrimaryFeatures />
-  <SecondaryFeatures />
+  <Primary />
+  <Secondary />
 </>
