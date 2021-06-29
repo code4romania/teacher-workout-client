@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Box, makeStyles } from '@material-ui/core'
 
-import { Header } from 'header'
-import { Footer } from 'footer'
+import { Header } from 'layout/header'
+import { Footer } from 'layout/footer'
 
 const useStyles = makeStyles({ root: { background: '#E5E5E5' } })
 

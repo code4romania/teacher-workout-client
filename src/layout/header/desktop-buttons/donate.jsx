@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Grid, makeStyles } from '@material-ui/core'
 
-import { actions } from 'header/constants'
+import { actions } from 'layout/header/constants'
 
 const useStyles = makeStyles(theme => ({
   root: {

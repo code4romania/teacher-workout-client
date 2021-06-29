@@ -2,7 +2,7 @@
 import React from 'react'
 import { Grid, makeStyles } from '@material-ui/core'
 
-import { Link } from 'header/link'
+import { Link } from 'layout/header/link'
 
 const useStyles = makeStyles(theme => ({
   link: {
@@ -10,6 +10,6 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-export const About = () => <Grid className={useStyles().link} item xs={12} sm={12} md={3} lg={3} xl={3}>
-  <Link>Despre proiect</Link>
+export const PrivacyPolicy = () => <Grid item className={useStyles().link} xs={12} sm={12} md={3} lg={3} xl={3}>
+  <Link>Politica de confidențialitate</Link>
 </Grid>

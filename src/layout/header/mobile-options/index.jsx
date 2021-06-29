@@ -1,10 +1,10 @@
 import React from 'react'
 import { Collapse, Hidden, List, makeStyles } from '@material-ui/core'
 
-import { About } from 'header/mobile-options/about'
-import { Lessons } from 'header/mobile-options/lessons'
-import { Contact } from 'header/mobile-options/contact'
-import { useVisibility } from 'header/mobile-options/hooks/use-visibility'
+import { About } from 'layout/header/mobile-options/about'
+import { Lessons } from 'layout/header/mobile-options/lessons'
+import { Contact } from 'layout/header/mobile-options/contact'
+import { useVisibility } from 'layout/header/mobile-options/hooks/use-visibility'
 
 const useStyles = makeStyles({ list: { backgroundColor: 'white' } })
 

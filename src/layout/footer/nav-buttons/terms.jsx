@@ -2,7 +2,7 @@
 import React from 'react'
 import { Grid, makeStyles } from '@material-ui/core'
 
-import { Link } from 'header/link'
+import { Link } from 'layout/header/link'
 
 const useStyles = makeStyles(theme => ({
   link: { [theme.breakpoints.down('sm')]: { textAlign: 'center', padding: '0.5rem' } },

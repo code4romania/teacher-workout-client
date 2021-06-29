@@ -1,10 +1,10 @@
 import React from 'react'
 import { Box, makeStyles } from '@material-ui/core'
 
-import { Icon } from 'header/icon'
-import { Space } from 'header/space'
-import { MobileButtons } from 'header/mobile-buttons'
-import { DesktopButtons } from 'header/desktop-buttons'
+import { Icon } from 'layout/header/icon'
+import { Space } from 'layout/header/space'
+import { MobileButtons } from 'layout/header/mobile-buttons'
+import { DesktopButtons } from 'layout/header/desktop-buttons'
 
 const useStyles = makeStyles({
   root: {
