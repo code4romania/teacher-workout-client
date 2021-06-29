@@ -8,7 +8,7 @@ import { Options } from 'home/features/primary/options'
 
 export const Primary = () => (
   <Layout>
-    <Grid item container>
+    <Grid container>
       <Grid item xs={12} sm={12} md={12} lg={8} xl={8}>
         <About />
         <Options />

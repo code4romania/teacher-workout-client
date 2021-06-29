@@ -12,7 +12,7 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-export const Image = () => <Grid item xs={12} sm={12} md={10} lg={4} xl={4}>
+export const Image = () => <Grid item xs={12} sm={12} md={12} lg={6} xl={6}>
   <Box display={'flex'} justifyContent={'center'} alignItems={'center'} pt={10}>
     <img src={Source} alt={'image'} className={useStyles().image} />
   </Box>
