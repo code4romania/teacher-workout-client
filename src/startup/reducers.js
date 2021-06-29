@@ -1,6 +1,6 @@
 import { combineReducers } from '@reduxjs/toolkit'
 
-import { header } from 'header/slices'
 import { course } from 'course/slices'
+import { layout } from 'layout/slices'
 
-export const reducers = combineReducers({ header, course })
+export const reducers = combineReducers({ layout, course })
