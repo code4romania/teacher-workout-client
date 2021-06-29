@@ -1,10 +1,10 @@
 import React from 'react'
 import { Grid } from '@material-ui/core'
 
-import { Image } from 'home/primary-features/image'
-import { About } from 'home/primary-features/about'
-import { Layout } from 'home/primary-features/layout'
-import { Options } from 'home/primary-features/options'
+import { Image } from 'home/features/primary/image'
+import { About } from 'home/features/primary/about'
+import { Layout } from 'home/features/primary/layout'
+import { Options } from 'home/features/primary/options'
 
 export const PrimaryFeatures = () => (
   <Layout>

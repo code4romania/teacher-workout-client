@@ -1,8 +1,8 @@
 import React from 'react'
 import { Box, Grid } from '@material-ui/core'
 
-import { Title } from 'home/feature-option/title'
-import { Description } from 'home/feature-option/description'
+import { Title } from 'home/features/option/title'
+import { Description } from 'home/features/option/description'
 
 export const Text = props => (
   <Grid item xs={10} sm={11} md={11} lg={11} xl={11}>

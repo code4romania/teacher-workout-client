@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { Paper } from 'home/primary-features/layout/paper'
-import { Spacing } from 'home/primary-features/layout/spacing'
+import { Paper } from 'home/features/primary/layout/paper'
+import { Spacing } from 'home/features/primary/layout/spacing'
 
 export const Layout = ({ children }) => (
   <Spacing>

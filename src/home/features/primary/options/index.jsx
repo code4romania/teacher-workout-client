@@ -1,10 +1,10 @@
 import React from 'react'
 import { Grid } from '@material-ui/core'
 
-import { Option } from 'home/feature-option'
-import Icon0 from 'home/primary-features/options/icon.0.png'
-import Icon1 from 'home/primary-features/options/icon.1.png'
-import Icon2 from 'home/primary-features/options/icon.2.png'
+import { Option } from 'home/features/option'
+import Icon0 from 'home/features/primary/options/icon.0.png'
+import Icon1 from 'home/features/primary/options/icon.1.png'
+import Icon2 from 'home/features/primary/options/icon.2.png'
 
 const options = [
   {

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Grid, makeStyles } from '@material-ui/core'
 
-import Source from 'home/primary-features/device.png'
+import Source from 'home/features/primary/device.png'
 
 const useStyles = makeStyles(theme => ({
   root: {

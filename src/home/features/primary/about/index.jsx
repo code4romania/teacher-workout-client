@@ -1,8 +1,8 @@
 import React from 'react'
 import { Box, makeStyles } from '@material-ui/core'
 
-import { Title } from 'home/primary-features/about/title'
-import { Description } from 'home/primary-features/about/description'
+import { Title } from 'home/features/primary/about/title'
+import { Description } from 'home/features/primary/about/description'
 
 const useStyles = makeStyles(theme => ({
   root: {

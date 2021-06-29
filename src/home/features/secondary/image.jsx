@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Grid, makeStyles } from '@material-ui/core'
 
-import Source from 'home/secondary-features/image.svg'
+import Source from 'home/features/secondary/image.svg'
 
 const useStyles = makeStyles(theme => ({
   image: {

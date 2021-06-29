@@ -1,9 +1,9 @@
 import React from 'react'
 import { Grid } from '@material-ui/core'
 
-import { Option } from 'home/feature-option'
-import Icon0 from 'home/secondary-features/options/icon.0.svg'
-import Icon1 from 'home/secondary-features/options/icon.1.svg'
+import { Option } from 'home/features/option'
+import Icon0 from 'home/features/secondary/options/icon.0.svg'
+import Icon1 from 'home/features/secondary/options/icon.1.svg'
 
 const options = [
   {

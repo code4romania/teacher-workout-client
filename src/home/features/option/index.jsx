@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { Text } from 'home/feature-option/text'
-import { Icon } from 'home/feature-option/icon'
+import { Text } from 'home/features/option/text'
+import { Icon } from 'home/features/option/icon'
 
 export const Option = props => (
   <>
