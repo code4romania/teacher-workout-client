@@ -3,7 +3,7 @@ import React from 'react'
 import { Header } from 'header'
 import { StaticPage } from 'core/staticpage/staticpage'
 
-export const CookiePolicy = () => <>
+export const Privacy = () => <>
   <Header />
   <StaticPage title={'Cookie Policy'} articles={articles} />
 </>

@@ -1,6 +1,6 @@
 import { Home } from 'home'
 import { TermsAndConditions } from 'termsAndConditions'
-import { PrivacyPolicy } from 'footer/nav-buttons/privacy-policy'
+import { Privacy } from 'privacy'
 
 export const routes = [
   {
@@ -13,6 +13,6 @@ export const routes = [
   },
   {
     path: '/privacy-policy',
-    Component: PrivacyPolicy,
+    Component: Privacy,
   },
 ]
