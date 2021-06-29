@@ -9,7 +9,7 @@ import { Options } from 'home/features/secondary/options'
 export const Secondary = () => <Layout>
   <Image />
 
-  <Grid item xs={11} sm={10} md={10} lg={6} xl={6}>
+  <Grid item xs={12} sm={11} md={11} lg={6} xl={6}>
     <About />
     <Options />
   </Grid>
