@@ -1,12 +1,11 @@
 import React from 'react'
 
-import { Header } from 'header'
+import { Layout } from 'layout'
 import { StaticPage } from 'core/static-page'
 
-export const Terms = () => <>
-  <Header />
+export const Terms = () => <Layout>
   <StaticPage title={'Termeni și condiții'} articles={articles} />
-</>
+</Layout>
 
 /* eslint max-len: 0 */
 const articles = [
