@@ -15,7 +15,7 @@ const useStyles = makeStyles(theme => ({
 }))
 
 export const BCard = () => (
-  <Box container direction={'column'} justify={'center'} alignItems={'flex-start'} className={useStyles().root}>
+  <Box className={useStyles().root}>
     <Title />
     <CustomList />
     <Button />
