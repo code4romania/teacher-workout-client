@@ -4,7 +4,7 @@ import { ListItem as MUIListItem, ListItemIcon, ListItemText } from '@material-u
 import { makeStyles } from '@material-ui/core/styles'
 import { ChevronRight } from '@material-ui/icons'
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles(() => ({
   primary: {
     fontSize: 20,
     fontWeight: '700',
@@ -27,7 +27,7 @@ export const ListItem = props => {
   return (
     <MUIListItem button className={classes.noPaddingLeft}>
       <ListItemIcon>
-        <img src={icon} style={{ height: 90, marginRight: 20 }} />
+        <img src={icon} style={{ height: 90, marginRight: 20 }} alt={'Image'} />
       </ListItemIcon>
       <ListItemText primary={title} secondary={description} classes={classes} />
       <ChevronRight />

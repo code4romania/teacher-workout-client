@@ -20,7 +20,7 @@ const secondary = {
   marginBottom: 4,
 }
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles(() => ({
   primary,
   secondary,
 }))

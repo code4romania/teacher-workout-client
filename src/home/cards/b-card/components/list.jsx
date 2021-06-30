@@ -1,9 +1,10 @@
 import React from 'react'
 import { List as MUIList } from '@material-ui/core'
-import { ListItem } from 'core/list/components'
-import image1 from 'core/list/image1.png'
-import image2 from 'core/list/image2.png'
-import image3 from 'core/list/image3.png'
+
+import image1 from 'home/cards/b-card/image1.png'
+import image2 from 'home/cards/b-card/image2.png'
+import image3 from 'home/cards/b-card/image3.png'
+import { ListItem } from 'home/cards/b-card/components/index'
 
 const listContent = [
   {
