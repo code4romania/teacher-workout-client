@@ -7,7 +7,7 @@ import { DownloadApp } from 'layout/footer/download-app'
 import { Copyright } from 'layout/footer/copyright'
 
 export const Footer = () => (
-  <Box flexWrap={'wrap'}>
+  <Box flexWrap={'wrap'} pt={10}>
     <Grid container alignItems={'center'} justify={'space-between'}>
       <OrganizerLogo />
       <NavButtons />
