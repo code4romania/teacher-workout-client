@@ -1,15 +1,17 @@
 /* eslint-disable object-curly-newline */
 import React from 'react'
-import { Grid, makeStyles } from '@material-ui/core'
+import { Box, makeStyles } from '@material-ui/core'
 
 import { Link } from 'header/link'
 
 const useStyles = makeStyles(theme => ({
   link: {
+    marginLeft: 25,
+    marginRight: 25,
     [theme.breakpoints.down('sm')]: { textAlign: 'center', padding: '0.5rem' },
   },
 }))
 
-export const About = () => <Grid className={useStyles().link} item xs={12} sm={12} md={3} lg={3} xl={3}>
+export const About = () => <Box className={useStyles().link}>
   <Link>Despre proiect</Link>
-</Grid>
+</Box>
