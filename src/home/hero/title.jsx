@@ -1,10 +1,15 @@
-import { Box } from '@material-ui/core'
 import React from 'react'
+import { Box, makeStyles, Typography } from '@material-ui/core'
 
-export const Title = () => (
-  <div>
-    <Box display={'flex'} justifyContent={'center'}>
-      <h1>Teacher Workout</h1>
-    </Box>
-  </div>
-)
+const useStyles = makeStyles(theme => ({
+  text: {
+    fontWeight: 550,
+    paddingBottom: theme.spacing(4),
+  },
+}))
+
+export const Title = () => <Box display={'flex'} justifyContent={'center'}>
+  <Typography align={'center'} variant={'h3'} className={useStyles().text}>
+    Teacher Workout
+  </Typography>
+</Box>
