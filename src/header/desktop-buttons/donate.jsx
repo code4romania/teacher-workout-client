@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Grid, makeStyles } from '@material-ui/core'
+import { Box, Button, makeStyles } from '@material-ui/core'
 
 import { actions } from 'header/constants'
 
@@ -11,8 +11,6 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-export const Donate = () => (
-  <Grid item md={3} lg={3} xl={3}>
-    <Button className={useStyles().root}>{actions.donate}</Button>
-  </Grid>
-)
+export const Donate = () => <Box marginLeft={3}>
+  <Button className={useStyles().root}>{actions.donate}</Button>
+</Box>

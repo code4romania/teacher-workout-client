@@ -1,10 +1,8 @@
 import React from 'react'
-import { Box, makeStyles } from '@material-ui/core'
+import { Box, Container, Grid, makeStyles } from '@material-ui/core'
 
 import { Icon } from 'header/icon'
-import { Space } from 'header/space'
-import { MobileButtons } from 'header/mobile-buttons'
-import { DesktopButtons } from 'header/desktop-buttons'
+import { Buttons } from 'header/buttons'
 
 const useStyles = makeStyles({
   root: {
@@ -22,9 +20,11 @@ const properties = {
 
 export const Bar = () => (
   <Box {...properties} className={useStyles().root}>
-    <Icon />
-    <Space />
-    <MobileButtons />
-    <DesktopButtons />
+    <Container>
+      <Grid container justify={'space-between'}>
+        <Icon />
+        <Buttons />
+      </Grid>
+    </Container>
   </Box>
 )
