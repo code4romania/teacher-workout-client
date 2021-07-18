@@ -10,7 +10,8 @@ const useStyles = makeStyles(theme => ({
   },
   text: {
     textAlign: 'right',
-    [theme.breakpoints.down('sm')]: { textAlign: 'left' },
+    [theme.breakpoints.down('sm')]: { textAlign: 'center' },
+    [theme.breakpoints.down('xs')]: { textAlign: 'left' },
   },
 }))
 

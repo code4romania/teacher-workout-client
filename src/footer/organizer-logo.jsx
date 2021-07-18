@@ -7,7 +7,7 @@ const useStyles = makeStyles(theme => ({
     order: 1,
     maxWidth: 302,
     marginBottom: 32,
-    [theme.breakpoints.down('sm')]: { order: 3, flexBasis: '100%' },
+    [theme.breakpoints.down('sm')]: { order: 3, flexBasis: '100%', paddingTop: 14, paddingBottom: 22 },
   },
 }))
 

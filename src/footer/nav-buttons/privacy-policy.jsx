@@ -8,7 +8,7 @@ const useStyles = makeStyles(theme => ({
   link: {
     marginLeft: 25,
     marginRight: 25,
-    [theme.breakpoints.down('sm')]: { textAlign: 'center', padding: '0.5rem' },
+    [theme.breakpoints.down('sm')]: { textAlign: 'center', flex: '1 100%', padding: 8 },
   },
 }))
 

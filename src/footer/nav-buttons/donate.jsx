@@ -6,9 +6,9 @@ const useStyles = makeStyles(theme => ({
     background: 'green',
     color: 'white',
     marginLeft: 25,
-    [theme.breakpoints.down('sm')]: { width: '100%' },
+    [theme.breakpoints.down('sm')]: { width: '100%', marginLeft: 0 },
   },
-  link: { [theme.breakpoints.down('sm')]: { textAlign: 'center', padding: '0.5rem' } },
+  link: { [theme.breakpoints.down('sm')]: { textAlign: 'center', flex: '1 100%', paddingBottom: 14, paddingTop: 42 } },
 }))
 
 export const Donate = () => <Box className={useStyles().link}>
