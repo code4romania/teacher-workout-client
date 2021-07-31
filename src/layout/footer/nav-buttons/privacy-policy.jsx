@@ -3,6 +3,7 @@ import React from 'react'
 import { Grid, makeStyles } from '@material-ui/core'
 
 import { Link } from 'layout/header/link'
+import { routesPath } from 'startup/routes'
 
 const useStyles = makeStyles(theme => ({
   link: {
@@ -11,5 +12,5 @@ const useStyles = makeStyles(theme => ({
 }))
 
 export const PrivacyPolicy = () => <Grid item className={useStyles().link} xs={12} sm={12} md={3} lg={3} xl={3}>
-  <Link>Politica de confidențialitate</Link>
+  <Link to={routesPath.PrivacyPolicy}>Politica de confidențialitate</Link>
 </Grid>

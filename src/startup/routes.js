@@ -4,21 +4,30 @@ import { Terms } from 'terms'
 import { Lessons } from 'lessons'
 import { Privacy } from 'privacy'
 
+export const routesPath = {
+  Home: '/',
+  Lessons: '/lessons',
+  TermsAndConditions: '/terms-and-conditions',
+  PrivacyPolicy: '/privacy-policy',
+  About: '/about',
+  Contact: '/contact',
+}
+
 export const routes = [
   {
-    path: '/',
+    path: routesPath.Home,
     Component: Home,
   },
   {
-    path: '/terms-and-conditions',
+    path: routesPath.TermsAndConditions,
     Component: Terms,
   },
   {
-    path: '/privacy-policy',
+    path: routesPath.PrivacyPolicy,
     Component: Privacy,
   },
   {
-    path: '/about',
+    path: routesPath.About,
     Component: About,
   },
   {
