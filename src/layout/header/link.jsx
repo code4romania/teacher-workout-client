@@ -11,7 +11,7 @@ const useStyles = makeStyles({
   },
 })
 
-export const Link = ({ children }) => <MuiLink className={useStyles().root}>
+export const Link = ({to, children }) => <MuiLink className={useStyles().root} href={to}>
   {children}
 </MuiLink>
 
