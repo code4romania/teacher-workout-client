@@ -1,16 +1,16 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-  data: '',
-  input: '',
-  errors: '',
+  attempt: undefined,
+  success: [],
+  failure: undefined,
 }
 
-const attempt = (state, { payload }) => ({ ...state, input: payload })
+const attempt = (state, { payload }) => ({ ...state, attempt: payload })
 
-const success = (state, { payload }) => ({ ...state, data: payload })
+const success = (state, { payload }) => ({ ...state, success: payload })
 
-const failure = (state, { payload }) => ({ ...state, errors: payload })
+const failure = (state, { payload }) => ({ ...state, failure: payload })
 
 export const get = createSlice({
   initialState,
