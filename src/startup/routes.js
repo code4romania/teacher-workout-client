@@ -9,7 +9,7 @@ export const routesPath = {
   TermsAndConditions: '/terms-and-conditions',
   PrivacyPolicy: '/privacy-policy',
   About: '/about',
-  Contact: '/contact'
+  Contact: '/contact',
 }
 
 export const routes = [
