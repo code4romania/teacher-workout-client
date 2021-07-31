@@ -1,8 +1,9 @@
 import React from 'react'
-import { Grid } from '@material-ui/core'
+import { Layout } from 'layout'
+import { Box } from '@material-ui/core'
 
-export const Lessons = () => <Grid container>
-  <Grid item>
+export const Lessons = () => <Layout>
+  <Box height={'70vh'} display={'flex'} alignItems={'center'} justifyContent={'center'}>
     Lessons...
-  </Grid>
-</Grid>
+  </Box>
+</Layout>
