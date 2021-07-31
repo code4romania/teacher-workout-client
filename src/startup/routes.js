@@ -1,6 +1,7 @@
 import { Home } from 'home'
 import { About } from 'about'
 import { Terms } from 'terms'
+import { Lessons } from 'lessons'
 import { Privacy } from 'privacy'
 
 export const routes = [
@@ -19,5 +20,9 @@ export const routes = [
   {
     path: '/about',
     Component: About,
+  },
+  {
+    path: '/lessons',
+    Component: Lessons,
   },
 ]
