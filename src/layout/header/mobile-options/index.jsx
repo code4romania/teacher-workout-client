@@ -6,7 +6,7 @@ import { Lessons } from 'layout/header/mobile-options/lessons'
 import { Contact } from 'layout/header/mobile-options/contact'
 import { useVisibility } from 'layout/header/mobile-options/hooks/use-visibility'
 
-const useStyles = makeStyles({ list: { backgroundColor: 'white' } })
+const useStyles = makeStyles({ list: { backgroundColor: 'white', '& span': { textAlign: 'center' } } })
 
 export const MobileOptions = () => (
   <Collapse in={useVisibility()}>
