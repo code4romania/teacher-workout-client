@@ -1,10 +1,11 @@
 import React from 'react'
-import { Grid } from '@material-ui/core'
-
-import { Link } from 'layout/header/link'
-import { actions } from 'layout/header/constants'
+import { Link } from 'layout/common/link'
+import { Box, Grid } from '@material-ui/core'
 import { routesPath } from 'startup/routes'
+import { actions } from 'layout/header/constants'
 
 export const Lessons = () => <Grid item md={3} lg={3} xl={3}>
-  <Link to={routesPath.Lessons}>{actions.lessons}</Link>
+  <Box py={1} display={'flex'} justifyContent={'center'}>
+    <Link to={routesPath.Lessons}>{actions.lessons}</Link>
+  </Box>
 </Grid>
