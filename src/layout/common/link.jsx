@@ -1,18 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import * as Material from '@material-ui/core'
 
-import { Link as MuiLink, makeStyles } from '@material-ui/core'
-
-const useStyles = makeStyles({
+const useStyles = Material.makeStyles(() => ({
   root: {
     fontWeight: '700',
     color: 'gray',
     cursor: 'pointer',
   },
-})
+}))
 
-export const Link = ({ to, children }) => <MuiLink className={useStyles().root} href={to}>
+export const Link = ({ to, children }) => <Material.Link className={useStyles().root} href={to}>
   {children}
-</MuiLink>
+</Material.Link>
 
 Link.propTypes = { to: PropTypes.node.isRequired, children: PropTypes.node.isRequired }

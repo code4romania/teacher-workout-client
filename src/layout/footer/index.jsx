@@ -1,18 +1,13 @@
 import React from 'react'
-import { Box, Grid } from '@material-ui/core'
-
-import { OrganizerLogo } from 'layout/footer/organizer-logo'
-import { NavButtons } from 'layout/footer/nav-buttons'
-import { DownloadApp } from 'layout/footer/download-app'
+import { Wrapper } from 'layout/footer/wrapper'
+import { Buttons } from 'layout/footer/buttons'
+import { Download } from 'layout/footer/download'
+import { Organizer } from 'layout/footer/organizer'
 import { Copyright } from 'layout/footer/copyright'
 
-export const Footer = () => (
-  <Box flexWrap={'wrap'} pt={10}>
-    <Grid container alignItems={'center'} justify={'space-between'}>
-      <OrganizerLogo />
-      <NavButtons />
-      <Copyright />
-      <DownloadApp />
-    </Grid>
-  </Box>
-)
+export const Footer = () => <Wrapper>
+  <Organizer />
+  <Buttons />
+  <Copyright />
+  <Download />
+</Wrapper>
