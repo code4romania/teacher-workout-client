@@ -4,7 +4,7 @@ import { Box, makeStyles } from '@material-ui/core'
 
 import { Header } from 'layout/header'
 import { Footer } from 'layout/footer'
-import { Spacing } from 'layout/spacing'
+import { Spacing } from 'layout/common/spacing'
 
 const useStyles = makeStyles(theme => ({ root: { background: theme.palette.background.main } }))
 
