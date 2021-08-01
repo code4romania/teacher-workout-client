@@ -14,8 +14,8 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-export const Donate = () => <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
-  <Box display={'flex'} justifyContent={'center'} py={1}>
+export const Donate = () => <Grid item>
+  <Box display={'flex'} justifyContent={'center'} py={1} px={1}>
     <Button className={useStyles().button}>
       {actions.donate}
     </Button>
