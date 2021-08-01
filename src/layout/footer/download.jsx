@@ -3,7 +3,7 @@ import { Box, Grid, Typography, makeStyles } from '@material-ui/core'
 import { DownloadButtons } from 'core/download-buttons'
 
 const useStyles = makeStyles(theme => ({
-  downloadApp: {
+  root: {
     order: 4,
     flexBasis: '50%',
     [theme.breakpoints.down('sm')]: { order: 1, flexBasis: '100%' },
@@ -14,7 +14,7 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-export const DownloadApp = () => <Grid item className={useStyles().downloadApp}>
+export const Download = () => <Grid item className={useStyles().root}>
   <Box>
     <Box px={1.25}>
       <Typography className={useStyles().text} align={'right'}>Descarcă aplicația</Typography>
