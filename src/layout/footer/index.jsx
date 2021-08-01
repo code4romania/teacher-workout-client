@@ -1,13 +1,15 @@
 import React from 'react'
-import { Wrapper } from 'layout/footer/wrapper'
+import * as Material from '@material-ui/core'
 import { Buttons } from 'layout/footer/buttons'
 import { Download } from 'layout/footer/download'
 import { Organizer } from 'layout/footer/organizer'
 import { Copyright } from 'layout/footer/copyright'
 
-export const Footer = () => <Wrapper>
-  <Organizer />
-  <Buttons />
-  <Copyright />
-  <Download />
-</Wrapper>
+export const Footer = () => <Material.Box py={8} width={1}>
+  <Material.Grid container>
+    <Organizer />
+    <Download />
+    <Copyright />
+    <Buttons />
+  </Material.Grid>
+</Material.Box>
