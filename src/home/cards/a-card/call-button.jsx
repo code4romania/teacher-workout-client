@@ -4,7 +4,7 @@ import ArrowForwardIcon from '@material-ui/icons/ArrowForward'
 
 const useStyles = makeStyles(theme => ({
   button: {
-    fontFamily: 'IBM Plex Sans',
+    fontFamily: theme.typography.fontFamily,
     fontStyle: 'normal',
     fontWeight: 'bold',
     fontSize: '16px',

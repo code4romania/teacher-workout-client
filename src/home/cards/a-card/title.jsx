@@ -3,7 +3,7 @@ import { makeStyles, Typography } from '@material-ui/core'
 
 const useStyles = makeStyles(theme => ({
   title: {
-    fontFamily: 'IBM Plex Sans',
+    fontFamily: theme.typography.fontFamily,
     fontStyle: 'normal',
     fontWeight: 'bold',
     fontSize: '1.4em',
