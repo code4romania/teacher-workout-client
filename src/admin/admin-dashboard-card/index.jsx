@@ -1,32 +1,22 @@
+import React from 'react'
 import {
   Card,
   CardContent,
   CardActions,
   Grid,
-  makeStyles,
-} from "@material-ui/core";
-import { Share } from "@material-ui/icons";
-import PropTypes, { string } from "prop-types";
-import { AdminDashboardCardBody } from "admin/admin-dashboard-card/body";
-import { AdminDashboardCardIcon } from "admin/admin-dashboard-card/icon";
-import { AdminDashboardLink } from "admin/admin-dashboard-card/link";
+  makeStyles
+} from '@material-ui/core'
+import PropTypes from 'prop-types'
+import { AdminDashboardCardBody } from 'admin/admin-dashboard-card/body'
+import { AdminDashboardCardIcon } from 'admin/admin-dashboard-card/icon'
+import { AdminDashboardLink } from 'admin/admin-dashboard-card/link'
 
-const useStyles = makeStyles({
-  cardActions: {
-    backgroundColor: "#F9FAFB",
-  },
-});
+const useStyles = makeStyles({ cardActions: { backgroundColor: '#F9FAFB' } })
 
-export const AdminDashboardCard = ({
-  icon,
-  title,
-  statistics,
-  link,
-  linkText,
-}) => (
+export const AdminDashboardCard = ({ icon, title, statistics, link, linkText }) => (
   <Card>
     <CardContent>
-      <Grid container direction="row" spacing={1}>
+      <Grid container direction={'row'} spacing={1}>
         <AdminDashboardCardIcon icon={icon} />
         <AdminDashboardCardBody title={title} statistics={statistics} />
       </Grid>
@@ -35,12 +25,12 @@ export const AdminDashboardCard = ({
       <AdminDashboardLink link={link} text={linkText} />
     </CardActions>
   </Card>
-);
+)
 
-AdminDashboardCard.PropTypes = {
-  icon: string.isRequired,
-  title: string.isRequired,
-  statistics: string.isRequired,
-  link: string.isRequired,
-  linkText: string.isRequired,
-};
+AdminDashboardCard.propTypes = {
+  icon: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  statistics: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+  linkText: PropTypes.string.isRequired,
+}

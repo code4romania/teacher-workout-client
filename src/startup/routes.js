@@ -4,8 +4,6 @@ import { Terms } from 'terms'
 import { Admin } from 'admin'
 import { Lessons } from 'lessons'
 import { Privacy } from 'privacy'
-
-import { Admin } from 'admin'
 import { Users } from 'admin/users'
 
 export const routesPath = {
