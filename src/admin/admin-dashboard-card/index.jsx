@@ -7,7 +7,6 @@ import {
 } from "@material-ui/core";
 import { Share } from "@material-ui/icons";
 import PropTypes, { string } from "prop-types";
-import { elementType } from "prop-types";
 import { AdminDashboardCardBody } from "admin/admin-dashboard-card/body";
 import { AdminDashboardCardIcon } from "admin/admin-dashboard-card/icon";
 import { AdminDashboardLink } from "admin/admin-dashboard-card/link";
@@ -39,7 +38,7 @@ export const AdminDashboardCard = ({
 );
 
 AdminDashboardCard.PropTypes = {
-  icon: elementType.isRequired,
+  icon: string.isRequired,
   title: string.isRequired,
   statistics: string.isRequired,
   link: string.isRequired,
