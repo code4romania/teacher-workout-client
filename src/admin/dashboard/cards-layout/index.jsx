@@ -10,9 +10,9 @@ export const CardsLayout = () => (
       {staticData
         .filter((data, idx) => idx < 3)
         .map((data, idx) => <Material.Grid item xs={12} md={4} key={idx}>
-          <Card icon={data.icon} 
-                statistics={data.statistics} 
-                title={data.title} 
+          <Card icon={data.icon}
+                statistics={data.statistics}
+                title={data.title}
                 link={data.link}
                 linkText={data.linkText} />
         </Material.Grid>)}
@@ -21,9 +21,9 @@ export const CardsLayout = () => (
       {staticData
         .filter((data, idx) => idx >= 3)
         .map((data, idx) => <Material.Grid item xs={12} md={6} key={idx}>
-          <Card icon={data.icon} 
-                statistics={data.statistics} 
-                title={data.title} 
+          <Card icon={data.icon}
+                statistics={data.statistics}
+                title={data.title}
                 link={data.link}
                 linkText={data.linkText} />
         </Material.Grid>)}
