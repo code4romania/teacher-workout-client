@@ -5,7 +5,9 @@ import { Adornment } from 'admin/layout/header/bar/adornment'
 export const Search = () => {
   const inputProps = { startAdornment: <Adornment /> }
 
-  return <Material.Grid container justify={'flex-end'}>
-    <Material.TextField variant={'outlined'} placeholder={'Cauta'} size={'small'} InputProps={inputProps} />
-  </Material.Grid>
+  return <Material.Hidden xsDown>
+    <Material.Grid container justify={'flex-end'}>
+      <Material.TextField variant={'outlined'} placeholder={'Cauta'} size={'small'} InputProps={inputProps} />
+    </Material.Grid>
+  </Material.Hidden>
 }
