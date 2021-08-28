@@ -1,3 +1,3 @@
 import React from 'react'
 
-export const Admin = () => <div></div>
+export const Admin = () => <div />

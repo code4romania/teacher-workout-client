@@ -12,7 +12,7 @@ export const routesPath = {
   PrivacyPolicy: '/privacy-policy',
   About: '/about',
   Contact: '/contact',
-  Admin: '/admin'
+  Admin: '/admin',
 }
 
 export const routes = [
