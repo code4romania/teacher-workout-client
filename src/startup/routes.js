@@ -1,9 +1,10 @@
 import { Home } from 'home'
 import { About } from 'about'
 import { Terms } from 'terms'
+import { Admin } from 'admin'
 import { Lessons } from 'lessons'
 import { Privacy } from 'privacy'
-import { Admin } from 'admin'
+import { Users } from 'admin/users'
 
 export const routesPath = {
   Home: '/',
@@ -13,6 +14,7 @@ export const routesPath = {
   About: '/about',
   Contact: '/contact',
   Admin: '/admin',
+  Users: '/admin/users',
 }
 
 export const routes = [
@@ -39,5 +41,9 @@ export const routes = [
   {
     path: routesPath.Admin,
     Component: Admin,
+  },
+  {
+    path: routesPath.Users,
+    Component: Users,
   },
 ]
