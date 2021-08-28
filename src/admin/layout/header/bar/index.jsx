@@ -1,9 +1,13 @@
 import React from 'react'
 import { Icon } from 'admin/layout/header/icon'
+import { Search } from 'admin/layout/header/bar/search'
+import { Avatar } from 'admin/layout/header/bar/avatar'
 import { Wrapper } from 'admin/layout/header/bar/wrapper'
-import { DesktopButtons } from 'admin/layout/header/desktop-buttons'
+import { Notifications } from 'admin/layout/header/bar/notifications'
 
 export const Bar = () => <Wrapper>
   <Icon />
-  <DesktopButtons />
+  <Search />
+  <Notifications />
+  <Avatar />
 </Wrapper>

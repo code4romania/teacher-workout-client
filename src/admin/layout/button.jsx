@@ -8,11 +8,10 @@ const useStyles = Material.makeStyles(theme => ({
     fontWeight: '700',
     textTransform: 'none',
     '&:active': { background: theme.palette.background.main },
-    [theme.breakpoints.only('sm')]: { width: '30%' },
   },
 }))
 
-export const Button = ({ children }) => <Material.Button className={useStyles().button}>
+export const Button = ({ children }) => <Material.Button className={useStyles().button} fullWidth>
   {children}
 </Material.Button>
 
