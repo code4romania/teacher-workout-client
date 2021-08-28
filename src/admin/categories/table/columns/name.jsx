@@ -1,0 +1,13 @@
+import React from 'react'
+import PropTypes from 'prop-types'
+import * as Material from '@material-ui/core'
+import { Icon } from 'admin/categories/table/columns/icon'
+
+export const Name = ({ item }) => <Material.TableCell>
+  <Material.Box display={'flex'} alignItems={'center'}>
+    <Icon />
+    {item.name}
+  </Material.Box>
+</Material.TableCell>
+
+Name.propTypes = { item: PropTypes.object.isRequired }
