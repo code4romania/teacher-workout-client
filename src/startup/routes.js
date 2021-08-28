@@ -3,6 +3,7 @@ import { About } from 'about'
 import { Terms } from 'terms'
 import { Lessons } from 'lessons'
 import { Privacy } from 'privacy'
+import { Admin } from 'admin'
 
 export const routesPath = {
   Home: '/',
@@ -11,6 +12,7 @@ export const routesPath = {
   PrivacyPolicy: '/privacy-policy',
   About: '/about',
   Contact: '/contact',
+  Admin: '/admin'
 }
 
 export const routes = [
@@ -33,5 +35,9 @@ export const routes = [
   {
     path: '/lessons',
     Component: Lessons,
+  },
+  {
+    path: routesPath.Admin,
+    Component: Admin,
   },
 ]
