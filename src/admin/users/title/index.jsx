@@ -5,7 +5,9 @@ import { Header } from 'admin/users/title/header'
 import { Action } from 'admin/users/title/action'
 
 export const Title = () => <Material.Grid container alignItems={'flex-end'}>
-  <Header />
-  <Count />
+  <Material.Grid item xs={9}>
+    <Header />
+    <Count />
+  </Material.Grid>
   <Action />
 </Material.Grid>
