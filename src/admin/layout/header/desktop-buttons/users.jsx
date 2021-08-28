@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Grid } from '@material-ui/core'
-import { Button } from 'layout/admin/common/button'
-import { actions } from 'layout/admin/header/constants'
+import { Button } from 'admin/layout/button'
+import { actions } from 'admin/layout/header/constants'
 
 export const Users = () => <Grid item>
   <Box display={'flex'} justifyContent={'center'} py={1} px={1}>
