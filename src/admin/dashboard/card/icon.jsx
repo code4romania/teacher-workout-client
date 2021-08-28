@@ -3,7 +3,7 @@ import { Grid } from '@material-ui/core'
 import { makeStyles } from '@material-ui/styles'
 import PropTypes from 'prop-types'
 
-import { Icons } from 'admin/admin-dashboard-card/icons/icons'
+import { Icons } from 'admin/dashboard/icons/icons'
 
 const useStyles = makeStyles(theme => ({
   iconWrapper: {
@@ -14,7 +14,7 @@ const useStyles = makeStyles(theme => ({
   icon: { height: '18' },
 }))
 
-export const AdminDashboardCardIcon = ({ icon }) => (
+export const Icon = ({ icon }) => (
   <Grid container xs={1} justify={'center'} alignItems={'center'}>
     <div className={useStyles().iconWrapper}>
       <img src={Icons[icon]} alt={'card icon'} className={useStyles().icon} />
@@ -22,4 +22,4 @@ export const AdminDashboardCardIcon = ({ icon }) => (
   </Grid>
 )
 
-AdminDashboardCardIcon.propTypes = { icon: PropTypes.string.isRequired }
+Icon.propTypes = { icon: PropTypes.string.isRequired }

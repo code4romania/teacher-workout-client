@@ -17,7 +17,7 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-export const AdminDashboardCardBody = ({ title, statistics }) => (
+export const Body = ({ title, statistics }) => (
   <Grid container item xs={3} direction={'column'}>
     <Typography component={'h3'} className={useStyles().title}>
       {title}
@@ -30,7 +30,7 @@ export const AdminDashboardCardBody = ({ title, statistics }) => (
   </Grid>
 )
 
-AdminDashboardCardBody.propTypes = {
+Body.propTypes = {
   title: PropTypes.string.isRequired,
   statistics: PropTypes.string.isRequired,
 }

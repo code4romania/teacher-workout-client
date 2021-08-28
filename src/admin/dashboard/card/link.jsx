@@ -16,7 +16,7 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-export const AdminDashboardLink = ({ link, text }) => (
+export const Link = ({ link, text }) => (
   <Grid container xs={1} justify={'center'} alignItems={'center'}>
     <Typography component={'p'} className={useStyles().link}>
       <Link to={link}>{text}</Link>
@@ -24,7 +24,7 @@ export const AdminDashboardLink = ({ link, text }) => (
   </Grid>
 )
 
-AdminDashboardLink.propTypes = {
+Link.propTypes = {
   link: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
 }
