@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "start": "react-scripts start",
-    "lint": "eslint . --ext=js,jsx --config .eslintconfig;",
-    "lint:fix": "eslint . --ext=js,jsx --fix --config .eslintconfig;",
+    "lint": "eslint . --ext=js,jsx",
+    "lint:fix": "eslint . --ext=js,jsx --fix",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -53,6 +53,11 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "./.eslintconfig"
     ]
   }
 }
