@@ -3,7 +3,7 @@ import { Grid } from '@material-ui/core'
 import { makeStyles } from '@material-ui/styles'
 import PropTypes from 'prop-types'
 
-import { Icons } from 'admin/dashboard/icons/icons'
+import { Icons } from 'admin/dashboard/card/icons/icons'
 
 const useStyles = makeStyles(theme => ({
   iconWrapper: {

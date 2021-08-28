@@ -1,11 +1,11 @@
 import React from 'react'
 import * as Material from '@material-ui/core'
 import PropTypes from 'prop-types'
-import { Body } from 'admin/dashboard/body'
+import { Body } from 'admin/dashboard/card/body'
 import { Icon } from 'admin/dashboard/card/icon'
-import { Link } from 'admin/dashboard/link'
+import { Link } from 'admin/dashboard/card/link'
 
-const useStyles = makeStyles({ cardActions: { backgroundColor: '#F9FAFB' } })
+const useStyles = Material.makeStyles({ cardActions: { backgroundColor: '#F9FAFB' } })
 
 export const Card = ({ icon, title, statistics, link, linkText }) => (
   <Material.Card>

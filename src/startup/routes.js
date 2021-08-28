@@ -14,12 +14,12 @@ export const routesPath = {
   PrivacyPolicy: '/privacy-policy',
   About: '/about',
   Contact: '/contact',
-
   Admin: {
     Index: '/admin',
     Users: '/admin/users',
     Categories: '/admin/categories',
   },
+}
 
 export const routes = [
   {
@@ -46,7 +46,6 @@ export const routes = [
     path: routesPath.Admin.Index,
     Component: Admin,
   },
-
   {
     path: routesPath.Admin.Users,
     Component: Users,
