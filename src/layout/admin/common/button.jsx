@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import * as Material from '@material-ui/core'
 
 const useStyles = Material.makeStyles(theme => ({
@@ -15,4 +16,4 @@ export const Button = ({ children }) => <Material.Button className={useStyles().
   {children}
 </Material.Button>
 
-Button.propTypes = { to: PropTypes.node.isRequired, children: PropTypes.node.isRequired }
+Button.propTypes = { children: PropTypes.node.isRequired }
