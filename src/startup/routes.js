@@ -5,6 +5,7 @@ import { Admin } from 'admin'
 import { Lessons } from 'lessons'
 import { Privacy } from 'privacy'
 import { Users } from 'admin/users'
+import { Categories } from 'admin/categories'
 
 export const routesPath = {
   Home: '/',
@@ -14,9 +15,11 @@ export const routesPath = {
   About: '/about',
   Contact: '/contact',
 
-  Admin: '/admin',
-  Users: '/admin/users',
-}
+  Admin: {
+    Index: '/admin',
+    Users: '/admin/users',
+    Categories: '/admin/categories',
+  },
 
 export const routes = [
   {
@@ -40,12 +43,16 @@ export const routes = [
     Component: Lessons,
   },
   {
-    path: routesPath.Admin,
+    path: routesPath.Admin.Index,
     Component: Admin,
   },
 
   {
-    path: routesPath.Users,
+    path: routesPath.Admin.Users,
     Component: Users,
+  },
+  {
+    path: routesPath.Admin.Categories,
+    Component: Categories,
   },
 ]
