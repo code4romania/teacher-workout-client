@@ -1,11 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import * as Material from '@material-ui/core'
-import { useStyles } from 'admin/layout/hooks/use-styles'
+import { Header } from 'admin/layout/header'
+import { Spacing } from 'layout/common/spacing'
 
-export const Layout = ({ children }) => <Material.Box className={useStyles().root}>
-  {children}
-</Material.Box>
+export const Layout = ({ children }) => <>
+  <Header />
+  <Spacing>
+    {children}
+  </Spacing>
+</>
 
 Layout.propTypes = { children: PropTypes.node.isRequired }
 
