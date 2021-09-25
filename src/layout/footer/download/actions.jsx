@@ -1,6 +1,6 @@
 import React from 'react'
+import { Core } from 'core'
 import { Grid, makeStyles } from '@material-ui/core'
-import { DownloadButtons } from 'core/download-buttons'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -10,5 +10,5 @@ const useStyles = makeStyles(theme => ({
 }))
 
 export const Actions = () => <Grid container className={useStyles().root}>
-  <DownloadButtons />
+  <Core.Buttons.Download />
 </Grid>
