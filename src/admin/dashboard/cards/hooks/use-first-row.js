@@ -1,0 +1,37 @@
+const mock = [
+  {
+    icon: 'people',
+    title: 'Utilizatori',
+    statistics: '71.897',
+    link: '#',
+    linkText: 'Detalii',
+    size: {
+      xs: 12,
+      md: 4,
+    },
+  },
+  {
+    icon: 'envelope',
+    title: 'Conturi Active',
+    statistics: '62.175',
+    link: '#',
+    linkText: 'Detalii',
+    size: {
+      xs: 12,
+      md: 4,
+    },
+  },
+  {
+    icon: 'pointer',
+    title: 'Număr de lecții',
+    statistics: '415',
+    link: '#',
+    linkText: 'Detalii',
+    size: {
+      xs: 12,
+      md: 4,
+    },
+  },
+]
+
+export const useFirstRow = () => mock
