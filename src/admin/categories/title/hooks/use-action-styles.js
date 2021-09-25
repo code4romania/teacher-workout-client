@@ -9,5 +9,4 @@ export const useActionStyles = makeStyles(theme => ({
       paddingTop: theme.spacing(3),
     },
   },
-  button: { [theme.breakpoints.down('sm')]: { width: '100%' } },
 }))
