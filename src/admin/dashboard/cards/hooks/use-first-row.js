@@ -7,7 +7,8 @@ const mock = [
     linkText: 'Detalii',
     size: {
       xs: 12,
-      md: 4,
+      md: 6,
+      lg: 4,
     },
   },
   {
@@ -18,7 +19,8 @@ const mock = [
     linkText: 'Detalii',
     size: {
       xs: 12,
-      md: 4,
+      md: 6,
+      lg: 4,
     },
   },
   {
@@ -29,7 +31,8 @@ const mock = [
     linkText: 'Detalii',
     size: {
       xs: 12,
-      md: 4,
+      md: 12,
+      lg: 4,
     },
   },
 ]
