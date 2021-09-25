@@ -18,7 +18,7 @@ const useStyles = makeStyles(theme => ({
 }))
 
 export const Body = ({ title, statistics }) => (
-  <Grid container item xs={3} direction={'column'}>
+  <Grid container item xs={9} direction={'column'}>
     <Typography component={'h3'} className={useStyles().title}>
       {title}
     </Typography>
