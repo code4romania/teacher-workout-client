@@ -1,17 +1,13 @@
 import React from 'react'
-import { Grid } from '@material-ui/core'
-import { Users } from 'admin/layout/header/buttons/users'
-import { Lessons } from 'admin/layout/header/buttons/lessons'
-import { Dashboard } from 'admin/layout/header/buttons/dashboard'
-import { Categories } from 'admin/layout/header/buttons/categories'
-import { Spacing } from 'layout/common/spacing'
+import { routesPath } from 'startup/routes'
+import { actions } from 'admin/layout/header/constants'
+import { Layout } from 'admin/layout/header/buttons/layout'
+import { Button } from 'admin/layout/header/buttons/button'
 
-export const Buttons = () => <Spacing>
-  <Grid container justify={'flex-start'} alignItems={'center'}>
-    <Dashboard />
-    <Lessons />
-    <Categories />
-    <Users />
-  </Grid>
-</Spacing>
+export const Buttons = () => <Layout>
+  <Button to={routesPath.Admin.Index}>{actions.dashboard}</Button>
+  <Button to={routesPath.Admin.Lessons}>{actions.lessons}</Button>
+  <Button to={routesPath.Admin.Categories}>{actions.categories}</Button>
+  <Button to={routesPath.Admin.Users}>{actions.users}</Button>
+</Layout>
 
