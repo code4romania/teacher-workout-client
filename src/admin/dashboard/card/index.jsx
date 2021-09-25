@@ -1,30 +1,15 @@
 import React from 'react'
 import * as Material from '@material-ui/core'
-import PropTypes from 'prop-types'
-import { Body } from 'admin/dashboard/card/body'
-import { Icon } from 'admin/dashboard/card/icon'
-import { Link } from 'admin/dashboard/card/link'
+import { Layout } from 'admin/dashboard/card/layout'
+import { Content } from 'admin/dashboard/card/content'
+import { Actions } from 'admin/dashboard/card/actions'
+import { Context, useValue } from 'admin/dashboard/card/context'
 
-const useStyles = Material.makeStyles({ cardActions: { backgroundColor: '#F9FAFB' } })
-
-export const Card = ({ icon, title, statistics, link, linkText }) => (
-  <Material.Card>
-    <Material.CardContent>
-      <Material.Grid container direction={'row'} spacing={1}>
-        <Icon icon={icon} />
-        <Body title={title} statistics={statistics} />
-      </Material.Grid>
-    </Material.CardContent>
-    <Material.CardActions className={useStyles().cardActions}>
-      <Link link={link} text={linkText} />
-    </Material.CardActions>
-  </Material.Card>
-)
-
-Card.propTypes = {
-  icon: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  statistics: PropTypes.string.isRequired,
-  link: PropTypes.string.isRequired,
-  linkText: PropTypes.string.isRequired,
-}
+export const Card = props => <Context.Provider value={useValue(props)}>
+  <Layout>
+    <Material.Card>
+      <Content />
+      <Actions />
+    </Material.Card>
+  </Layout>
+</Context.Provider>

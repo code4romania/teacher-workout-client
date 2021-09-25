@@ -1,10 +1,14 @@
-export const staticData = [
+const mock = [
   {
     icon: 'people',
     title: 'Utilizatori',
     statistics: '71.897',
     link: '#',
     linkText: 'Detalii',
+    size: {
+      xs: 12,
+      md: 4,
+    },
   },
   {
     icon: 'envelope',
@@ -12,6 +16,10 @@ export const staticData = [
     statistics: '62.175',
     link: '#',
     linkText: 'Detalii',
+    size: {
+      xs: 12,
+      md: 4,
+    },
   },
   {
     icon: 'pointer',
@@ -19,19 +27,11 @@ export const staticData = [
     statistics: '415',
     link: '#',
     linkText: 'Detalii',
-  },
-  {
-    icon: 'people',
-    title: 'Lectii cu peste 1.000 de accesari',
-    statistics: '210',
-    link: '#',
-    linkText: 'Detalii',
-  },
-  {
-    icon: 'envelope',
-    title: 'Lectii cu sub 100 de accesari',
-    statistics: '15',
-    link: '#',
-    linkText: 'Detalii',
+    size: {
+      xs: 12,
+      md: 4,
+    },
   },
 ]
+
+export const useFirstRow = () => mock
