@@ -1,14 +1,13 @@
 import React from 'react'
-import { Box } from '@material-ui/core'
-
+import { Core } from 'core'
 import { Title } from 'home/hero/title'
+import { Box } from '@material-ui/core'
 import { Description } from 'home/hero/description'
-import { DownloadButtons } from 'core/download-buttons'
 
 export const Hero = () => (
   <Box pt={7}>
     <Title />
     <Description />
-    <DownloadButtons />
+    <Core.Buttons.Download />
   </Box>
 )
