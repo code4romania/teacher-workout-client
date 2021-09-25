@@ -4,8 +4,6 @@ import { Terms } from 'terms'
 import { Admin } from 'admin'
 import { Lessons } from 'lessons'
 import { Privacy } from 'privacy'
-import { Users } from 'admin/users'
-import { Categories } from 'admin/categories'
 
 export const routesPath = {
   Home: '/',
@@ -39,19 +37,19 @@ export const routes = [
     Component: About,
   },
   {
-    path: '/lessons',
+    path: routesPath.Lessons,
     Component: Lessons,
   },
   {
     path: routesPath.Admin.Index,
-    Component: Admin,
+    Component: Admin.Dashboard,
   },
   {
     path: routesPath.Admin.Users,
-    Component: Users,
+    Component: Admin.Users,
   },
   {
     path: routesPath.Admin.Categories,
-    Component: Categories,
+    Component: Admin.Categories,
   },
 ]
