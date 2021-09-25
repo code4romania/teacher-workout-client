@@ -16,6 +16,7 @@ export const routesPath = {
     Index: '/admin',
     Users: '/admin/users',
     Categories: '/admin/categories',
+    Lessons: '/admin/lessons',
   },
 }
 
