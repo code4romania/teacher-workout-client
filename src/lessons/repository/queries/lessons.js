@@ -2,7 +2,7 @@ import { gql } from '@apollo/client'
 
 export const lessons = gql`
     {
-        lessons(themeId: 5) {
+        lessons(themeId: "5") {
             items {
                 id
                 title
