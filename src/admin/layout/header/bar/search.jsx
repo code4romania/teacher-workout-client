@@ -7,7 +7,7 @@ export const Search = () => {
 
   return <Material.Hidden xsDown>
     <Material.Grid container justify={'flex-end'}>
-      <Material.TextField variant={'outlined'} placeholder={'Cauta'} size={'small'} InputProps={inputProps} />
+      <Material.TextField variant={'outlined'} placeholder={'Caută'} size={'small'} InputProps={inputProps} />
     </Material.Grid>
   </Material.Hidden>
 }

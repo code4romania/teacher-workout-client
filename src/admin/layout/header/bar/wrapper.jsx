@@ -6,7 +6,6 @@ import { Box, makeStyles } from '@material-ui/core'
 const useStyles = makeStyles({
   root: {
     height: 80,
-    borderBottom: '1px solid #E5E7EB',
     background: 'white',
   },
 })
@@ -16,6 +15,7 @@ const properties = {
   justifyContent: 'center',
   alignItems: 'center',
   height: '80px',
+  borderBottom: '1px solid #E5E7EB',
 }
 
 export const Wrapper = ({ children }) => <Box className={useStyles().root}>
