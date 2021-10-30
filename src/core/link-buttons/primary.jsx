@@ -4,7 +4,7 @@ import { Core } from 'core'
 import { Link } from 'react-router-dom'
 import { makeStyles } from '@material-ui/core/styles'
 
-const useStyles = makeStyles({ root: { textDecoration: 'none', color: '#000', textTransform: 'none' } })
+const useStyles = makeStyles({ root: { color: '#fff' } })
 
 export const Primary = ({ children, to }) => {
   const classes = useStyles()
@@ -15,7 +15,7 @@ export const Primary = ({ children, to }) => {
 }
 
 Primary.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.oneOfType([PropTypes.element, PropTypes.string]).isRequired,
   to: PropTypes.string.isRequired,
 }
 

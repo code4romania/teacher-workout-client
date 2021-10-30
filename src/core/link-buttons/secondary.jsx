@@ -15,7 +15,7 @@ export const Secondary = ({ children, to }) => {
 }
 
 Secondary.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.oneOfType([PropTypes.element, PropTypes.string]).isRequired,
   to: PropTypes.string.isRequired,
 }
 
