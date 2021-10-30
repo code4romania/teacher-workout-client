@@ -21,6 +21,28 @@ const mock = [
       md: 6,
     },
   },
+  {
+    icon: 'pointer',
+    title: 'Lorem ipsum dolor sit',
+    statistics: '332',
+    link: '#',
+    linkText: 'Detalii',
+    size: {
+      xs: 12,
+      md: 6,
+    },
+  },
+  {
+    icon: 'envelope',
+    title: 'Lorem ipsum dolor sit',
+    statistics: '332',
+    link: '#',
+    linkText: 'Detalii',
+    size: {
+      xs: 12,
+      md: 6,
+    },
+  },
 ]
 
 export const useSecondRow = () => mock
