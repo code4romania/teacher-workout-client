@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import * as Material from '@material-ui/core'
+import * as Material from '@mui/material'
 import { Context, useValue } from 'core/select/context'
 
 export const Layout = ({ children, options }) => <Context.Provider value={useValue({ options })}>

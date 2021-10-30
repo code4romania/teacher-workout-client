@@ -1,6 +1,6 @@
 import React from 'react'
 import { Lesson } from 'lessons/lesson'
-import * as Material from '@material-ui/core'
+import * as Material from '@mui/material'
 import { useFetchedLessons } from 'lessons/grid/hooks/use-fetched-lessons'
 
 export const Grid = () => <Material.Grid container>

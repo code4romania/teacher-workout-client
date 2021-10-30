@@ -1,5 +1,5 @@
 import React from 'react'
-import * as Material from '@material-ui/core'
+import * as Material from '@mui/material'
 import { Content } from 'lessons/lesson/card/content'
 
 export const Card = () => <Material.Card>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Layout } from 'lessons/top/layout'
-import { Typography } from '@material-ui/core'
+import { Typography } from '@mui/material'
 
 const VALUE = `
 Aici ar fi un alt text care sa imputerniceasca ce zice textul de mai sus si sa 

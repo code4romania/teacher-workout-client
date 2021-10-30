@@ -1,6 +1,6 @@
-import * as Material from '@material-ui/core'
+import * as Styles from '@mui/styles'
 
-const useWrapperStyles = Material.makeStyles(theme => ({
+const useWrapperStyles = Styles.makeStyles(theme => ({
   wrapper: {
     backgroundColor: '#6366F1',
     borderRadius: '6px',
@@ -10,7 +10,7 @@ const useWrapperStyles = Material.makeStyles(theme => ({
   },
 }))
 
-const useTitleStyles = Material.makeStyles(theme => ({
+const useTitleStyles = Styles.makeStyles(theme => ({
   title: {
     fontFamily: theme.typography.fontFamily,
     fontWeight: 'normal',
@@ -19,7 +19,7 @@ const useTitleStyles = Material.makeStyles(theme => ({
   },
 }))
 
-const useStatisticsStyles = Material.makeStyles(theme => ({
+const useStatisticsStyles = Styles.makeStyles(theme => ({
   statistics: {
     fontFamily: theme.typography.fontFamily,
     fontWeight: '600',

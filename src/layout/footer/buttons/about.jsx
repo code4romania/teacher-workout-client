@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box } from '@material-ui/core'
+import { Box } from '@mui/material'
 import { Link } from 'layout/common/link'
 import { routesPath } from 'startup/routes'
 import { actions } from 'layout/header/constants'

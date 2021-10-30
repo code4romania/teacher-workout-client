@@ -1,7 +1,7 @@
 import React from 'react'
 import * as Core from 'core/buttons'
-import * as Icons from '@material-ui/icons'
-import * as Material from '@material-ui/core'
+import * as Material from '@mui/material'
+import * as Icons from '@mui/icons-material'
 
 export const CallButton = () => <Material.Box mt={3}>
   <Core.Buttons.Blue>

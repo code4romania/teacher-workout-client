@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'layout/common/link'
 import { routesPath } from 'startup/routes'
-import { Box, Grid } from '@material-ui/core'
+import { Box, Grid } from '@mui/material'
 import { actions } from 'layout/header/constants'
 
 export const Lessons = () => <Grid item>

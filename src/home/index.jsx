@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { Layout } from 'layout'
 import { Hero } from 'home/hero'
 import { Cards } from 'home/cards'

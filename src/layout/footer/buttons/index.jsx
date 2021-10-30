@@ -1,11 +1,12 @@
 import React from 'react'
-import * as Material from '@material-ui/core'
+import * as Styles from '@mui/styles'
+import * as Material from '@mui/material'
 import { About } from 'layout/footer/buttons/about'
 import { Terms } from 'layout/footer/buttons/terms'
 import { Donate } from 'layout/footer/buttons/donate'
 import { Privacy } from 'layout/footer/buttons/privacy'
 
-const useStyles = Material.makeStyles(theme => ({
+const useStyles = Styles.makeStyles(theme => ({
   root: {
     display: 'flex',
     justifyContent: 'flex-end',

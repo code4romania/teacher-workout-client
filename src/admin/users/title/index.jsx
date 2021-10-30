@@ -1,5 +1,5 @@
 import React from 'react'
-import * as Material from '@material-ui/core'
+import * as Material from '@mui/material'
 import { Count } from 'admin/users/title/count'
 import { Header } from 'admin/users/title/header'
 import { Action } from 'admin/users/title/action'

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Typography } from '@material-ui/core'
+import { Box, Typography } from '@mui/material'
 
 const CONTENT = ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ex obcaecati natus 
 eligendi delectus, cum deleniti sunt in labore nihil quod quibusdam expedita nemo. `

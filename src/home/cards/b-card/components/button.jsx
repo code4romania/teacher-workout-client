@@ -1,8 +1,8 @@
 import React from 'react'
 import * as Core from 'core/buttons'
-import * as Icons from '@material-ui/icons'
-import * as Material from '@material-ui/core'
-import { makeStyles } from '@material-ui/core/styles'
+import { makeStyles } from '@mui/styles'
+import * as Material from '@mui/material'
+import * as Icons from '@mui/icons-material'
 
 const useStyles = makeStyles(theme => ({
   root: {

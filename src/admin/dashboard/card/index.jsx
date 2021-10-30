@@ -1,5 +1,5 @@
 import React from 'react'
-import * as Material from '@material-ui/core'
+import * as Material from '@mui/material'
 import { Layout } from 'admin/dashboard/card/layout'
 import { Content } from 'admin/dashboard/card/content'
 import { Actions } from 'admin/dashboard/card/actions'

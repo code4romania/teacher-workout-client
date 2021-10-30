@@ -1,6 +1,6 @@
 import React from 'react'
-import * as Material from '@material-ui/core'
-import { makeStyles } from '@material-ui/core'
+import { makeStyles } from '@mui/styles'
+import * as Material from '@mui/material'
 import dummyAvatar from 'admin/layout/header/bar/avatar-dummy.jpg'
 
 const useStyles = makeStyles(theme => ({

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid } from '@material-ui/core'
+import { Grid } from '@mui/material'
 
 import { Option } from 'home/features/option'
 import Icon0 from 'home/features/secondary/options/icon.0.svg'

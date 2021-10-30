@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, MenuItem, Select } from '@material-ui/core'
+import { Grid, MenuItem, Select } from '@mui/material'
 
 export const Category = () => <Grid item xs={2}>
   <Select value={'all'} label={'Category'} fullWidth>

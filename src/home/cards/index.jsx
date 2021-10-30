@@ -1,10 +1,10 @@
 import React from 'react'
-import { Grid } from '@material-ui/core'
+import { Grid } from '@mui/material'
 
 import { BCard } from 'home/cards/b-card'
 import { ACard } from 'home/cards/a-card'
 
-export const Cards = () => <Grid container justify={'center'}>
+export const Cards = () => <Grid container justifyContent={'center'}>
   <Grid item xs={12} sm={12} md={11} lg={11} xl={11}>
     <BCard />
   </Grid>

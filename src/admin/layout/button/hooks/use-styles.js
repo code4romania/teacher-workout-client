@@ -1,10 +1,11 @@
-import * as Material from '@material-ui/core'
+import * as Styles from '@mui/styles'
 
-export const useStyles = Material.makeStyles(theme => ({
+export const useStyles = Styles.makeStyles(theme => ({
   button: {
     fontFamily: theme.typography.fontFamily,
     fontWeight: '700',
     textTransform: 'none',
+    color: 'black',
     '&:active': { background: theme.palette.background.main },
   },
 }))

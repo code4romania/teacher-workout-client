@@ -1,13 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import * as Material from '@material-ui/core'
+import * as Styles from '@mui/styles'
+import * as Material from '@mui/material'
 
-const useStyles = Material.makeStyles(theme => ({
+const useStyles = Styles.makeStyles(theme => ({
   root: {
     fontFamily: theme.typography.fontFamily,
     fontWeight: '700',
     color: 'gray',
     cursor: 'pointer',
+    textDecoration: 'none',
   },
 }))
 

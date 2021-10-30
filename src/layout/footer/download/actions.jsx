@@ -1,6 +1,7 @@
 import React from 'react'
 import { Core } from 'core'
-import { Grid, makeStyles } from '@material-ui/core'
+import { Grid } from '@mui/material'
+import { makeStyles } from '@mui/styles'
 
 const useStyles = makeStyles(theme => ({
   root: {

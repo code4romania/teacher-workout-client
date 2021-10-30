@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Card } from 'lessons/lesson/card'
-import * as Material from '@material-ui/core'
+import * as Material from '@mui/material'
 import { Context, useValue } from 'lessons/lesson/context'
 
 export const Lesson = ({ value }) => <Context.Provider value={useValue({ value })}>

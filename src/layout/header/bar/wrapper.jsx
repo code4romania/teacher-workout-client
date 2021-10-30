@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Box } from '@mui/material'
+import { makeStyles } from '@mui/styles'
 import { Spacing } from 'layout/common/spacing'
-import { Box, makeStyles } from '@material-ui/core'
 
 const useStyles = makeStyles({
   root: {

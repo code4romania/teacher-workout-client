@@ -1,7 +1,7 @@
 import React from 'react'
-import { Grid } from '@material-ui/core'
-import { Buttons } from 'admin/add-category/form/buttons'
+import { Grid } from '@mui/material'
 import { Field } from 'admin/add-category/form/field'
+import { Buttons } from 'admin/add-category/form/buttons'
 
 export const Form = () => (
   <Grid container>

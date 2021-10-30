@@ -1,5 +1,5 @@
 import React from 'react'
-import { List as MUIList } from '@material-ui/core'
+import { List as MUIList } from '@mui/material'
 
 import image1 from 'home/cards/b-card/image1.png'
 import image2 from 'home/cards/b-card/image2.png'
