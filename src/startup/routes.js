@@ -53,4 +53,8 @@ export const routes = [
     path: routesPath.Admin.Categories,
     Component: Admin.Categories,
   },
+  {
+    path: routesPath.Admin.Lessons,
+    Component: Admin.Lessons,
+  },
 ]
