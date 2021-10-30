@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Button } from '@material-ui/core'
+import { Button } from '@mui/material'
 import { Link } from 'react-router-dom'
 
-export const Secondary = ({ children, to }) => <Button component={Link} to={to} variant={'contained'}>
+export const Secondary = ({ children, to }) => <Button component={Link} to={to} variant={'contained'} color={'secondary'}>
   {children}
 </Button>
 

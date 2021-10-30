@@ -5,6 +5,7 @@ export const useStyles = Styles.makeStyles(theme => ({
     fontFamily: theme.typography.fontFamily,
     fontWeight: '700',
     textTransform: 'none',
+    color: 'black',
     '&:active': { background: theme.palette.background.main },
   },
 }))

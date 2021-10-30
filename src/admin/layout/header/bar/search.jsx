@@ -6,7 +6,7 @@ export const Search = () => {
   const inputProps = { startAdornment: <Adornment /> }
 
   return <Material.Hidden xsDown>
-    <Material.Grid container justify={'flex-end'}>
+    <Material.Grid container justifyContent={'flex-end'}>
       <Material.TextField variant={'outlined'} placeholder={'Caută'} size={'small'} InputProps={inputProps} />
     </Material.Grid>
   </Material.Hidden>
