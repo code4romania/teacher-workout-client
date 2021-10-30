@@ -3,7 +3,14 @@ import PropTypes from 'prop-types'
 import { Button } from '@mui/material'
 import { Link } from 'react-router-dom'
 
-export const Secondary = ({ children, to }) => <Button component={Link} to={to} variant={'contained'} color={'secondary'}>
+const useProperties = ({ to }) => ({
+  component: Link,
+  to,
+  variant: 'contained',
+  color: 'secondary',
+})
+
+export const Secondary = ({ children, to }) => <Button {...useProperties({ to })}>
   {children}
 </Button>
 
