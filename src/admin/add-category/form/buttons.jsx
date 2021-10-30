@@ -2,7 +2,6 @@ import React from 'react'
 import { Core } from 'core'
 import { Grid } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
-import { LinkButton } from 'admin/add-category/form/link-button'
 
 const useStyles = makeStyles({
   buttonList: {
@@ -19,7 +18,7 @@ export const Buttons = () => {
   return (
     <div className={classes.buttonList}>
       <Grid item>
-        <LinkButton to={`/admin/categories`}>Anulează</LinkButton>
+        <Core.LinkButtons.Secondary to={`/admin/categories`}>Anulează</Core.LinkButtons.Secondary>
       </Grid>
       <Grid item className={classes.submitButton}>
         <Core.Buttons.Blue>Salvează</Core.Buttons.Blue>
