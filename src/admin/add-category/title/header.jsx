@@ -6,4 +6,3 @@ export const Header = () => <Material.Box display={'inline-block'} pt={6}>
     <strong>Adaugă o categorie nouă</strong>
   </Material.Typography>
 </Material.Box>
-
