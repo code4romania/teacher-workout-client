@@ -1,7 +1,7 @@
 import React from 'react'
 import { Core } from 'core'
 import { Title } from 'home/hero/title'
-import { Box } from '@material-ui/core'
+import { Box } from '@mui/material'
 import { Description } from 'home/hero/description'
 
 export const Hero = () => (

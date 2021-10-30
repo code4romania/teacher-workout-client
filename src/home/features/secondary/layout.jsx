@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Grid } from '@material-ui/core'
+import { Grid } from '@mui/material'
 
-export const Layout = ({ children }) => <Grid container justify={'center'} alignItems={'center'}>
+export const Layout = ({ children }) => <Grid container justifyContent={'center'} alignItems={'center'}>
   {children}
 </Grid>
 

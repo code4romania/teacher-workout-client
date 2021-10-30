@@ -1,6 +1,6 @@
 import React from 'react'
 import { Core } from 'core'
-import * as Material from '@material-ui/core'
+import * as Material from '@mui/material'
 import { useStyles } from 'admin/lessons/filters/hooks/use-styles'
 
 const OPTIONS = Object.freeze([

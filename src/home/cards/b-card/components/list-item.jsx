@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { ChevronRight } from '@material-ui/icons'
-import { makeStyles, ListItem as MUIListItem, ListItemIcon, ListItemText } from '@material-ui/core'
+import { makeStyles } from '@mui/styles'
+import { ChevronRight } from '@mui/icons-material'
+import { ListItem as MUIListItem, ListItemIcon, ListItemText } from '@mui/material'
 
 const useListStyles = makeStyles(() => ({ noPaddingLeft: { paddingLeft: 0 } }))
 

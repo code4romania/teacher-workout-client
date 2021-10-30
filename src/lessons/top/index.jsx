@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box } from '@material-ui/core'
+import { Box } from '@mui/material'
 import { Title } from 'lessons/top/title'
 import { Space } from 'lessons/top/space'
 import { Description } from 'lessons/top/description'

@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Box, Grid, makeStyles } from '@material-ui/core'
+import { makeStyles } from '@mui/styles'
+import { Box, Grid } from '@mui/material'
 
 const useStyles = makeStyles(theme => ({
   box: {

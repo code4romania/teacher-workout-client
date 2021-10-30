@@ -1,5 +1,5 @@
 import React from 'react'
-import * as Material from '@material-ui/core'
+import * as Material from '@mui/material'
 import { Name } from 'admin/lessons/table/headers/name'
 import { Status } from 'admin/lessons/table/headers/status'
 import { Actions } from 'admin/lessons/table/headers/actions'

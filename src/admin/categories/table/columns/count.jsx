@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import * as Material from '@material-ui/core'
+import * as Material from '@mui/material'
 
 export const Count = ({ item }) => <Material.Hidden smDown>
   <Material.TableCell>

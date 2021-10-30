@@ -1,4 +1,4 @@
-import { createMuiTheme } from '@material-ui/core'
+import * as Styles from '@mui/material/styles'
 
 const fontFamily = ['IBM Plex Sans', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'].join(',')
 const typography = {
@@ -6,7 +6,7 @@ const typography = {
   button: { textTransform: 'none' },
 }
 
-export const make = () => createMuiTheme({
+export const make = () => Styles.createTheme({
   palette: {
     background: {
       main: '#F9FAFB',

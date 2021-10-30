@@ -1,5 +1,5 @@
 import React from 'react'
-import * as Material from '@material-ui/core'
+import * as Material from '@mui/material'
 import { Action } from 'admin/lessons/table/columns/action'
 
 export const Actions = () => <Material.TableCell>

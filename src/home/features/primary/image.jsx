@@ -1,5 +1,6 @@
 import React from 'react'
-import { Box, Grid, makeStyles } from '@material-ui/core'
+import { makeStyles } from '@mui/styles'
+import { Box, Grid } from '@mui/material'
 
 import Source from 'home/features/primary/device.png'
 

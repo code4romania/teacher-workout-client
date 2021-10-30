@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Grid } from '@material-ui/core'
+import { Box, Grid } from '@mui/material'
 
 import { Title } from 'home/features/option/title'
 import { Description } from 'home/features/option/description'

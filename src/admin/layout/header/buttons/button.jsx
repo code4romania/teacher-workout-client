@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import * as Layout from 'admin/layout/button'
-import * as Material from '@material-ui/core'
+import * as Material from '@mui/material'
 import { useNavigateCallback } from 'admin/layout/header/buttons/hooks/use-navigate-callback'
 
 export const Button = ({ children, to }) => <Material.Grid item xs={12} sm={'auto'}>

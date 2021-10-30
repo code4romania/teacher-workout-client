@@ -1,6 +1,6 @@
 import React from 'react'
 import { Core } from 'core'
-import * as Material from '@material-ui/core'
+import * as Material from '@mui/material'
 import { useActionStyles } from 'admin/lessons/title/hooks/use-action-styles'
 
 export const Action = () => <Material.Grid item xs={12} md={3}>

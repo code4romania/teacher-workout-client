@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid } from '@material-ui/core'
+import { Grid } from '@mui/material'
 import { Body } from 'home/cards/a-card/body'
 import { CallButton } from 'home/cards/a-card/call-button'
 import { Title } from 'home/cards/a-card/title'

@@ -1,5 +1,5 @@
 import React from 'react'
-import * as Material from '@material-ui/core'
+import * as Material from '@mui/material'
 import { useContext } from 'admin/dashboard/card/context'
 import { useStyles } from 'admin/dashboard/card/content/hooks/use-styles'
 

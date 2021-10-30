@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Card } from 'admin/dashboard/card'
-import * as Material from '@material-ui/core'
+import * as Material from '@mui/material'
 
 export const Row = ({ cards }) => <Material.Grid container spacing={2}>
   {

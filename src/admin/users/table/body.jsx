@@ -1,6 +1,6 @@
 import React from 'react'
 import { Row } from 'admin/users/table/row'
-import * as Material from '@material-ui/core'
+import * as Material from '@mui/material'
 import { useData } from 'admin/users/table/hooks/use-data'
 
 export const Body = () => <Material.TableBody>

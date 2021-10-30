@@ -1,7 +1,7 @@
 import React from 'react'
+import { makeStyles } from '@mui/styles'
 import { Bar } from 'admin/layout/header/bar'
 import { Buttons } from 'admin/layout/header/buttons'
-import { makeStyles } from '@material-ui/core'
 
 const useStyles = makeStyles({
   root: {

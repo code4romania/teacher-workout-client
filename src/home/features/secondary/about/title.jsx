@@ -1,5 +1,6 @@
 import React from 'react'
-import { Grid, makeStyles, Typography } from '@material-ui/core'
+import { makeStyles } from '@mui/styles'
+import { Grid, Typography } from '@mui/material'
 
 const useStyles = makeStyles({ root: { fontWeight: 700 } })
 

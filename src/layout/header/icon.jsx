@@ -1,6 +1,5 @@
 import React from 'react'
-import { makeStyles } from '@material-ui/core'
-
+import { makeStyles } from '@mui/styles'
 import Source from 'layout/header/icon.png'
 import { routesPath } from 'startup/routes'
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Grid } from '@material-ui/core'
+import { Grid } from '@mui/material'
 import { Spacing } from 'layout/common/spacing'
 
 export const Layout = ({ children }) => <Spacing>

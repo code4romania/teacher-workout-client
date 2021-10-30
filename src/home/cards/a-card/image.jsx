@@ -1,5 +1,6 @@
 import React from 'react'
-import { Grid, makeStyles } from '@material-ui/core'
+import { Grid } from '@mui/material'
+import { makeStyles } from '@mui/styles'
 import ImageCard from 'home/cards/a-card/img_card.png'
 
 const useStyles = makeStyles({ root: { height: 242, margin: 20 } })

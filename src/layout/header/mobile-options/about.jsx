@@ -1,5 +1,5 @@
 import React from 'react'
-import { ListItem, ListItemText } from '@material-ui/core'
+import { ListItem, ListItemText } from '@mui/material'
 
 import { actions } from 'layout/header/constants'
 import { Link } from 'react-router-dom'

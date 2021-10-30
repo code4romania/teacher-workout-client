@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import * as Material from '@material-ui/core'
+import * as Material from '@mui/material'
 import { Name } from 'admin/lessons/table/columns/name'
 import { Status } from 'admin/lessons/table/columns/status'
 import { Actions } from 'admin/lessons/table/columns/actions'

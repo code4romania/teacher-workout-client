@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid } from '@material-ui/core'
+import { Grid } from '@mui/material'
 
 import { Image } from 'home/features/primary/image'
 import { About } from 'home/features/primary/about'

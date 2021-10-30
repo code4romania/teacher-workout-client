@@ -1,5 +1,5 @@
 import React from 'react'
-import * as Material from '@material-ui/core'
+import * as Material from '@mui/material'
 
 export const FullName = () => <Material.TableCell>
   Nume si prenume

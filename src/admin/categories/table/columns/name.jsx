@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import * as Material from '@material-ui/core'
+import * as Material from '@mui/material'
 import { Icon } from 'admin/categories/table/columns/icon'
 
 export const Name = ({ item }) => <Material.TableCell>

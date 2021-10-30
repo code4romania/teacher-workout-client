@@ -1,5 +1,6 @@
 import React from 'react'
-import { Box, Hidden, makeStyles, Typography } from '@material-ui/core'
+import { makeStyles } from '@mui/styles'
+import { Box, Hidden, Typography } from '@mui/material'
 
 const CONTENT = `Aici ar fi un alt text care sa imputerniceasca ce zice 
 textul de mai sus si sa complementeze call 

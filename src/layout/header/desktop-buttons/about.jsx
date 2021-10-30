@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Grid } from '@material-ui/core'
+import { Box, Grid } from '@mui/material'
 import { Link } from 'layout/common/link'
 import { actions } from 'layout/header/constants'
 import { routesPath } from 'startup/routes'

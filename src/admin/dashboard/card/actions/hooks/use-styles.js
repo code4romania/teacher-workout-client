@@ -1,6 +1,6 @@
-import * as Material from '@material-ui/core'
+import * as Styles from '@mui/styles'
 
-export const useStyles = Material.makeStyles(theme => ({
+export const useStyles = Styles.makeStyles(theme => ({
   link: {
     fontFamily: theme.typography.fontFamily,
     fontStyle: 'normal',

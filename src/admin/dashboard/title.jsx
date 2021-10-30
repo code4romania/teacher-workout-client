@@ -1,5 +1,5 @@
 import React from 'react'
-import * as Material from '@material-ui/core'
+import * as Material from '@mui/material'
 
 export const Title = () => <Material.Grid item>
   <Material.Box display={'inline-block'} pt={6} pb={3}>

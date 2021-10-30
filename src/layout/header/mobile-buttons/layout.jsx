@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Grid, Hidden } from '@material-ui/core'
+import { Grid, Hidden } from '@mui/material'
 
 export const Layout = ({ children }) => <Hidden mdUp>
   <Grid item container justify={'flex-end'} alignItems={'center'}>
