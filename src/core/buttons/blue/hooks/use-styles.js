@@ -8,7 +8,6 @@ export const useStyles = makeStyles(theme => ({
     fontSize: '16px',
     lineHeight: 1.5,
     color: '#FFFFFF',
-    marginTop: theme.spacing(3),
     textTransform: 'none',
   },
 }))

@@ -9,4 +9,8 @@ export const useActionStyles = makeStyles(theme => ({
       paddingTop: theme.spacing(3),
     },
   },
+  link: {
+    color: '#fff',
+    textDecoration: 'none',
+  },
 }))
