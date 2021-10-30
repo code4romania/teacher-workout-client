@@ -11,7 +11,7 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-export const Button = () => <Material.Box pt={4} className={useStyles().root}>
+export const Button = () => <Material.Box mt={7} className={useStyles().root}>
   <Core.Buttons.Blue>
     Vezi toate cursurile
     <Icons.ArrowForward fontSize={'small'} />
