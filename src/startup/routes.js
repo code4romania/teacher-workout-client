@@ -18,6 +18,7 @@ export const routesPath = {
     Categories: '/admin/categories',
     AddCategory: '/admin/categories/new',
     Lessons: '/admin/lessons',
+    AddUser: '/admin/users/add',
   },
 }
 
@@ -61,5 +62,9 @@ export const routes = [
   {
     path: routesPath.Admin.AddCategory,
     Component: Admin.AddCategory,
+  },
+  {
+    path: routesPath.Admin.AddUser,
+    Component: Admin.AddUser,
   },
 ]
