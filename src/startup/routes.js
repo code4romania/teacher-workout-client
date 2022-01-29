@@ -15,10 +15,12 @@ export const routesPath = {
   Admin: {
     Index: '/admin',
     Users: '/admin/users',
+    AddUser: '/admin/users/add',
+    EditUser: '/admin/users/edit/:id',
     Categories: '/admin/categories',
     AddCategory: '/admin/categories/new',
+    EditCategory: '/admin/categories/edit/:id',
     Lessons: '/admin/lessons',
-    AddUser: '/admin/users/add',
   },
 }
 
@@ -52,6 +54,14 @@ export const routes = [
     Component: Admin.Users,
   },
   {
+    path: routesPath.Admin.AddUser,
+    Component: Admin.AddUser,
+  },
+  {
+    path: routesPath.Admin.EditUser,
+    Component: Admin.EditUser,
+  },
+  {
     path: routesPath.Admin.Categories,
     Component: Admin.Categories,
   },
@@ -64,7 +74,7 @@ export const routes = [
     Component: Admin.AddCategory,
   },
   {
-    path: routesPath.Admin.AddUser,
-    Component: Admin.AddUser,
+    path: routesPath.Admin.EditCategory,
+    Component: Admin.EditCategory,
   },
 ]

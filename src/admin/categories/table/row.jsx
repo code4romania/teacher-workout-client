@@ -8,7 +8,7 @@ import { Action } from 'admin/categories/table/columns/action'
 export const Row = ({ item }) => <Material.TableRow>
   <Name item={item} />
   <Count item={item} />
-  <Action />
+  <Action item={item} />
 </Material.TableRow>
 
 Row.propTypes = { item: PropTypes.object.isRequired }

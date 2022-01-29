@@ -12,7 +12,7 @@ export const Row = ({ item }) => <Material.TableRow>
   <Phone item={item} />
   <Email item={item} />
   <Role item={item} />
-  <Action />
+  <Action item={item} />
 </Material.TableRow>
 
 Row.propTypes = { item: PropTypes.object.isRequired }
