@@ -15,10 +15,12 @@ export const routesPath = {
   Admin: {
     Index: '/admin',
     Users: '/admin/users',
+    AddUser: '/admin/users/add',
+    Profile: '/admin/profile',
+    ProfileEdit: '/admin/profile/edit',
     Categories: '/admin/categories',
     AddCategory: '/admin/categories/new',
     Lessons: '/admin/lessons',
-    AddUser: '/admin/users/add',
   },
 }
 
@@ -66,5 +68,13 @@ export const routes = [
   {
     path: routesPath.Admin.AddUser,
     Component: Admin.AddUser,
+  },
+  {
+    path: routesPath.Admin.Profile,
+    Component: Admin.Profile,
+  },
+  {
+    path: routesPath.Admin.ProfileEdit,
+    Component: Admin.Profile,
   },
 ]

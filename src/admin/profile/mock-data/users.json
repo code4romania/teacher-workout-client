@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "firstName": "Ana",
+      "lastName": "Cacho Paulo",
+      "email": "ana.cacho.paulo@gmail.com",
+      "phone": "0752 526 548",
+      "role": "Admin"
+    },
+    {
+      "firstName": "Jacinto",
+      "lastName": "Leite Capelo Rego",
+      "email": "jacinto.leite@gmail.com",
+      "phone": "0745 083 059",
+      "role": "Teacher"
+    },
+    {
+      "firstName": "Passos",
+      "lastName": "Dias Aguiar",
+      "email": "dias.aguiar@gmail.com",
+      "phone": "0256 489 868",
+      "role": "Teacher"
+    },
+    {
+      "firstName": "Amílcar",
+      "lastName": "Alhadas",
+      "email": "amilcar.alhadas@gmail.com",
+      "phone": "0256 489 868",
+      "role": "Teacher"
+    },
+    {
+      "firstName": "Gustava",
+      "lastName": "dos Prazeres e Morais",
+      "email": "prazeres.morais@gmail.com",
+      "phone": "0256 489 868",
+      "role": "Admin"
+    }
+  ]
+}
