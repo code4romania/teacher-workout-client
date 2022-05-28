@@ -1,13 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Grid, Hidden } from '@mui/material'
+import { Grid } from '@mui/material'
 
-export const Layout = ({ children }) => <Hidden mdUp>
-  <Grid item container justify={'flex-end'} alignItems={'center'}>
+export const Layout = ({ children }) => (
+  <Grid item container justifyContent={'flex-end'} alignItems={'center'}>
     <Grid item>
       {children}
     </Grid>
   </Grid>
-</Hidden>
+);
 
 Layout.propTypes = { children: PropTypes.node.isRequired }
