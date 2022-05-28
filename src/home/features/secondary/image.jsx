@@ -4,12 +4,9 @@ import { Box, Grid } from '@mui/material'
 
 import Source from 'home/features/secondary/image.svg'
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles(() => ({
   image: {
-    width: '100%',
-    [theme.breakpoints.up('md')]: {
-      marginRight: '21px'
-    }
+    width: '100%'
   },
 }))
 
