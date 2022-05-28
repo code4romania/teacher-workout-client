@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import * as Styles from '@mui/styles'
+import { makeStyles } from '@mui/styles'
 import * as Material from '@mui/material'
 
-const useStyles = Styles.makeStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   root: {
     fontFamily: theme.typography.fontFamily,
     fontWeight: '700',

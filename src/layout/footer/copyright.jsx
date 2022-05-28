@@ -1,9 +1,9 @@
 import React from 'react'
-import * as Styles from '@mui/styles'
+import { makeStyles } from '@mui/styles'
 import * as Material from '@mui/material'
 import { Text } from 'layout/footer/common/text'
 
-const useStyles = Styles.makeStyles(theme => ({
+const useStyles = makeStyles(theme => ({
   root: {
     display: 'flex',
     alignItems: 'center',
