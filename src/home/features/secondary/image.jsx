@@ -6,10 +6,10 @@ import Source from 'home/features/secondary/image.svg'
 
 const useStyles = makeStyles(theme => ({
   image: {
-    width: 480,
-
-    [theme.breakpoints.between(1, 350)]: { width: 190 },
-    [theme.breakpoints.between(350, 500)]: { width: 330 },
+    width: '100%',
+    [theme.breakpoints.up('md')]: {
+      marginRight: '21px'
+    }
   },
 }))
 
