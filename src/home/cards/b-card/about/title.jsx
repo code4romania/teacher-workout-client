@@ -4,6 +4,8 @@ import { Typography } from '@mui/material'
 
 const useStyles = makeStyles({ root: { fontWeight: 700 } })
 
-export const Title = () => <Typography variant={'h5'} className={useStyles().root}>
-  Cursuri zilnice de cateva minute
-</Typography>
+export const Title = () => (
+  <Typography variant={'h5'} className={useStyles().root}>
+    Cursuri zilnice de cateva minute
+  </Typography>
+);

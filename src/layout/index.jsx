@@ -8,13 +8,15 @@ import { Spacing } from 'layout/common/spacing'
 
 const useStyles = makeStyles(theme => ({ root: { background: theme.palette.background.main } }))
 
-export const Layout = ({ children }) => <Box className={useStyles().root}>
-  <Header />
+export const Layout = ({ children }) => (
+  <Box className={useStyles().root}>
+    <Header />
 
-  <Spacing>
-    {children}
-    <Footer />
-  </Spacing>
-</Box>
+    <Spacing>
+      {children}
+      <Footer />
+    </Spacing>
+  </Box>
+);
 
 Layout.propTypes = { children: PropTypes.node.isRequired }

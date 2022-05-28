@@ -33,8 +33,10 @@ const makeLgStyles = theme => ({
 
 const makeXlStyles = theme => ({
   [theme.breakpoints.only('xl')]: {
-    paddingLeft: '20vw',
-    paddingRight: '20vw',
+    maxWidth: '1180px',
+    width: '100%',
+    marginLeft: 'auto',
+    marginRight: 'auto',
   },
 })
 
