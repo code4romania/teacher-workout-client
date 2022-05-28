@@ -1,6 +1,6 @@
-import * as Styles from '@mui/styles'
+import { makeStyles } from '@mui/styles'
 
-const useWrapperStyles = Styles.makeStyles(theme => ({
+const useWrapperStyles = makeStyles(theme => ({
   wrapper: {
     backgroundColor: '#6366F1',
     borderRadius: '6px',
@@ -10,7 +10,7 @@ const useWrapperStyles = Styles.makeStyles(theme => ({
   },
 }))
 
-const useTitleStyles = Styles.makeStyles(theme => ({
+const useTitleStyles = makeStyles(theme => ({
   title: {
     fontFamily: theme.typography.fontFamily,
     fontWeight: 'normal',
@@ -19,7 +19,7 @@ const useTitleStyles = Styles.makeStyles(theme => ({
   },
 }))
 
-const useStatisticsStyles = Styles.makeStyles(theme => ({
+const useStatisticsStyles = makeStyles(theme => ({
   statistics: {
     fontFamily: theme.typography.fontFamily,
     fontWeight: '600',

@@ -1,9 +1,9 @@
 import React from 'react'
-import * as Styles from '@mui/styles'
+import { makeStyles } from '@mui/styles'
 import * as Material from '@mui/material'
 import { Layout } from 'lessons/more/layout'
 
-const useStyles = Styles.makeStyles(() => ({ button: { color: 'white' } }))
+const useStyles = makeStyles(() => ({ button: { color: 'white' } }))
 
 export const More = () => <Layout>
   <Material.Button variant={'contained'} color={'primary'} className={useStyles().button}>
