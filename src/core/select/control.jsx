@@ -1,11 +1,24 @@
 import React from 'react'
-import * as Material from '@mui/material'
+import { makeStyles } from '@mui/styles';
+import { Select, MenuItem as Option} from '@mui/material'
 import { useContext } from 'core/select/context'
 
-const Option = Material.MenuItem
+const useSelectStyles = makeStyles(() => ({
+  root: {
+    backgroundColor: 'white',
+  },
+}));
 
-export const Control = () => <Material.Select fullWidth value={useContext().value} onChange={useContext().handleChange}>
-  {
-    useContext().options.map((option, index) => <Option key={index} value={option.value}>{option.label}</Option>)
-  }
-</Material.Select>
+export const Control = () => {
+  const { handleChange, options, value } = useContext();
+
+  return (
+    <Select fullWidth classes={useSelectStyles()} value={value} onChange={handleChange}>
+      {options.map((option, index) => (
+        <Option key={`select-option-${index}-${option.value}`} value={option.value}>
+          {option.label}
+        </Option>
+      ))}
+    </Select>
+  );
+}
