@@ -1,6 +1,6 @@
-import * as Styles from '@mui/styles'
+import { makeStyles } from '@mui/styles'
 
-export const useStyles = Styles.makeStyles(theme => ({
+export const useStyles = makeStyles(theme => ({
   button: {
     fontFamily: theme.typography.fontFamily,
     fontWeight: '700',
