@@ -4,6 +4,7 @@ import { AddUser } from 'admin/add-user'
 import { Dashboard } from 'admin/dashboard'
 import { Categories } from 'admin/categories'
 import { AddCategory } from 'admin/add-category'
+import { Profile } from 'admin/profile'
 
 export const Admin = {
   Categories,
@@ -12,4 +13,5 @@ export const Admin = {
   Lessons,
   AddCategory,
   AddUser,
+  Profile
 }
