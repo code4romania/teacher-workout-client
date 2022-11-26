@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "firstName": "Passos",
+      "lastName": "Dias Aguiar",
+      "email": "dias.aguiar@gmail.com",
+      "phone": "0256 489 868",
+      "role": "Teacher"
+    },
+    {
+      "firstName": "Amílcar",
+      "lastName": "Alhadas",
+      "email": "amilcar.alhadas@gmail.com",
+      "phone": "0256 489 868",
+      "role": "Teacher"
+    },
+    {
+      "firstName": "Gustava",
+      "lastName": "dos Prazeres e Morais",
+      "email": "prazeres.morais@gmail.com",
+      "phone": "0256 489 868",
+      "role": "Admin"
+    }
+  ]
+}
