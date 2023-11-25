@@ -9,7 +9,7 @@ const makeTitleStyles = theme => ({
     fontSize: '52px',
     marginTop: '40px',
     marginBottom: '47px',
-
+    textAlign: 'center',
     [theme.breakpoints.up('md')]: {
       marginTop: '60px',
       marginBottom: '71px',
@@ -61,7 +61,7 @@ const useStyles = makeStyles(theme => ({
 export const StaticPage = props => (
   <div>
     <Container maxWidth={'md'} className={useStyles().container}>
-      <h1 align={'center'}>{props.title}</h1>
+      <h1>{props.title}</h1>
       {props.articles.map(article => parse(article.title + article.message))}
     </Container>
   </div>
