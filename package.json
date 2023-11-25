@@ -45,7 +45,7 @@
     "eslint-plugin-react-hooks": "4.6.0"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=20"
   },
   "browserslist": {
     "production": [
