@@ -1,26 +1,27 @@
-import { Home } from 'home'
-import { About } from 'about'
-import { Terms } from 'terms'
-import { Admin } from 'admin'
-import { Lessons } from 'lessons'
-import { Privacy } from 'privacy'
+import { Home } from "home";
+import { About } from "about";
+import { Terms } from "terms";
+import { Admin } from "admin";
+import { Lessons } from "lessons";
+import { Privacy } from "privacy";
 
 export const routesPath = {
-  Home: '/',
-  Lessons: '/lessons',
-  TermsAndConditions: '/terms-and-conditions',
-  PrivacyPolicy: '/privacy-policy',
-  About: '/about',
-  Contact: '/contact',
+  Home: "/",
+  Lessons: "/lessons",
+  TermsAndConditions: "/terms-and-conditions",
+  PrivacyPolicy: "/privacy-policy",
+  About: "/about",
+  Contact: "/contact",
   Admin: {
-    Index: '/admin',
-    Users: '/admin/users',
-    Categories: '/admin/categories',
-    AddCategory: '/admin/categories/new',
-    Lessons: '/admin/lessons',
-    AddUser: '/admin/users/add',
+    Index: "/admin",
+    Users: "/admin/users",
+    Categories: "/admin/categories",
+    AddCategory: "/admin/categories/new",
+    Lessons: "/admin/lessons",
+    AddLesson: "/admin/lessons/new",
+    AddUser: "/admin/users/add",
   },
-}
+};
 
 export const routes = [
   {
@@ -64,7 +65,11 @@ export const routes = [
     Component: Admin.AddCategory,
   },
   {
+    path: routesPath.Admin.AddLesson,
+    Component: Admin.AddLesson,
+  },
+  {
     path: routesPath.Admin.AddUser,
     Component: Admin.AddUser,
   },
-]
+];
