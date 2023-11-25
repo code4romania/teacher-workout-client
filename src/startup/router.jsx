@@ -1,7 +1,7 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import { routes } from 'startup/routes';
+import { routes } from 'startup/routes'
 
 export const Router = () => (
   <BrowserRouter>
@@ -11,4 +11,4 @@ export const Router = () => (
       ))}
     </Routes>
   </BrowserRouter>
-);
+)
