@@ -8,6 +8,6 @@ export const Layout = ({ children }) => (
       {children}
     </Grid>
   </Grid>
-);
+)
 
 Layout.propTypes = { children: PropTypes.node.isRequired }

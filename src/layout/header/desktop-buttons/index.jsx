@@ -12,4 +12,4 @@ export const DesktopButtons = () => (
     <Contact />
     <Donate />
   </Grid>
-);
+)

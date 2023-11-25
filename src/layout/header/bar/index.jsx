@@ -6,10 +6,10 @@ import { Wrapper } from 'layout/header/bar/wrapper'
 import { MobileButtons } from 'layout/header/mobile-buttons'
 import { DesktopButtons } from 'layout/header/desktop-buttons'
 
-const useNavbarCollapsed = () => useMediaQuery('(max-width: 975px)');
+const useNavbarCollapsed = () => useMediaQuery('(max-width: 975px)')
 
 export const Bar = () => {
-  const navbarCollapsed = useNavbarCollapsed();
+  const navbarCollapsed = useNavbarCollapsed()
 
   return (
     <Wrapper>
@@ -17,5 +17,5 @@ export const Bar = () => {
       <Space />
       {navbarCollapsed ? <MobileButtons /> : <DesktopButtons />}
     </Wrapper>
-  );
-};
+  )
+}

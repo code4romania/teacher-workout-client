@@ -14,4 +14,4 @@ export const Status = () => (
       <Core.Select title={'Filtrează după status'} options={OPTIONS} />
     </Box>
   </Grid>
-);
+)

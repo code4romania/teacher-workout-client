@@ -1,16 +1,12 @@
 import React from 'react'
-import { makeStyles } from '@mui/styles';
-import { Select, MenuItem as Option} from '@mui/material'
+import { makeStyles } from '@mui/styles'
+import { Select, MenuItem as Option } from '@mui/material'
 import { useContext } from 'core/select/context'
 
-const useSelectStyles = makeStyles(() => ({
-  root: {
-    backgroundColor: 'white',
-  },
-}));
+const useSelectStyles = makeStyles(() => ({ root: { backgroundColor: 'white' } }))
 
 export const Control = () => {
-  const { handleChange, options, value } = useContext();
+  const { handleChange, options, value } = useContext()
 
   return (
     <Select fullWidth classes={useSelectStyles()} value={value} onChange={handleChange}>
@@ -20,5 +16,5 @@ export const Control = () => {
         </Option>
       ))}
     </Select>
-  );
+  )
 }

@@ -14,4 +14,4 @@ export const Category = () => (
       <Core.Select title={'Filtrează după categorie'} options={OPTIONS} />
     </Box>
   </Grid>
-);
+)
