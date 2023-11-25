@@ -13,7 +13,13 @@
     "import",
     "filenames"
   ],
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "requireConfigFile": false,
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+    }
+  },
   "settings": {
     "react": {
       "version": "detect"
@@ -500,7 +506,6 @@
       "never"
     ],
     "no-return-assign": "error",
-    "node/no-callback-literal": "error",
     "no-debugger": "error",
     "react-hooks/exhaustive-deps": "error"
   },

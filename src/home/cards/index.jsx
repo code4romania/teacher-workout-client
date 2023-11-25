@@ -13,4 +13,4 @@ export const Cards = () => (
       <ACard />
     </Grid>
   </Grid>
-);
+)

@@ -4,19 +4,19 @@ import parse from 'html-react-parser'
 import { makeStyles } from '@mui/styles'
 import { Container } from '@mui/material'
 
-const makeTitleStyles = (theme) => ({
+const makeTitleStyles = theme => ({
   '& h1': {
     fontSize: '52px',
     marginTop: '40px',
     marginBottom: '47px',
-
+    textAlign: 'center',
     [theme.breakpoints.up('md')]: {
       marginTop: '60px',
       marginBottom: '71px',
-    }
+    },
   },
   '& h3': { marginBottom: '20px' },
-});
+})
 
 const makeListsStyles = () => ({
   '& p + ul': { marginBottom: '20px' },
@@ -32,23 +32,23 @@ const makeListsStyles = () => ({
       marginLeft: '-1em',
     },
   },
-});
+})
 
 const makeParagraphStyles = () => ({
   '& p': { marginBottom: '30px' },
   '& ul + p': { marginTop: '26px' },
-});
+})
 
 const makeAnchorStyles = () => ({
   '& a': {
     '&:link, &:hover, &:visited, &:active': {
       color: '#ec203a',
-      textDecoration: 'none'
-    }
+      textDecoration: 'none',
+    },
   },
-});
+})
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(theme => ({
   container: {
     ...makeTitleStyles(theme),
     ...makeListsStyles(),
@@ -56,12 +56,12 @@ const useStyles = makeStyles((theme) => ({
     ...makeAnchorStyles(),
     fontFamily: theme.typography.fontFamily,
   },
-}));
+}))
 
 export const StaticPage = props => (
   <div>
     <Container maxWidth={'md'} className={useStyles().container}>
-      <h1 align={'center'}>{props.title}</h1>
+      <h1>{props.title}</h1>
       {props.articles.map(article => parse(article.title + article.message))}
     </Container>
   </div>

@@ -17,6 +17,6 @@ export const Layout = ({ children }) => (
       <Footer />
     </Spacing>
   </Box>
-);
+)
 
 Layout.propTypes = { children: PropTypes.node.isRequired }

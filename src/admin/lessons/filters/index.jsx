@@ -12,4 +12,4 @@ export const Filters = () => (
       <Search />
     </Grid>
   </Box>
-);
+)

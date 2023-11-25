@@ -13,14 +13,14 @@ const useLabelStyles = makeStyles(() => ({
     transform: 'translate(0, -100%)',
     fontSize: '14px',
   },
-}));
+}))
 
 export const Select = ({ title, options }) => (
   <Layout options={options}>
     <InputLabel classes={useLabelStyles()}>{title}</InputLabel>
     <Control />
   </Layout>
-);
+)
 
 Select.propTypes = {
   title: PropTypes.string.isRequired,

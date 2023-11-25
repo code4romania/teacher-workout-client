@@ -1,10 +1,10 @@
 import { useCallback } from 'react'
-import { useHistory } from 'react-router'
+import { useNavigate } from 'react-router-dom'
 
 export const useNavigateCallback = to => {
-  const history = useHistory()
+  const navigate = useNavigate()
 
   return useCallback(() => {
-    history.push(to)
-  }, [history, to])
+    navigate(to)
+  }, [navigate, to])
 }

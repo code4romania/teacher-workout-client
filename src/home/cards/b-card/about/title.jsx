@@ -8,4 +8,4 @@ export const Title = () => (
   <Typography variant={'h5'} className={useStyles().root}>
     Cursuri zilnice de câteva minute
   </Typography>
-);
+)
