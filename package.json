@@ -33,6 +33,7 @@
     "web-vitals": "3.5.0"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "babel-eslint": "10.1.0",
     "eslint": "8.54.0",
     "eslint-config-standard": "17.1.0",
